@@ -182,8 +182,8 @@ jobs:
             --annotation "index:org.opencontainers.image.documentation=https://docs.rxresume.org" \
             --annotation "index:org.opencontainers.image.source=https://github.com/pickit420/reactive-resume-v2" \
             --annotation "index:org.opencontainers.image.version=${{ steps.version.outputs.version }}" \
-            $(printf 'ghcr.io/${{ env.IMAGE }}@sha256:%s ' *) \
-            $(printf 'docker.io/${{ env.IMAGE }}@sha256:%s ' *)
+            $(for f in *; do echo "ghcr.io/${{ env.IMAGE }}@sha256:$f"; done) \
+            $(for f in *; do echo "docker.io/${{ env.IMAGE }}@sha256:$f"; done)
           
           # Get the digest of the multi-arch manifest
           GHCR_DIGEST=$(docker buildx imagetools inspect ghcr.io/${{ env.IMAGE }}:v${{ steps.version.outputs.version }} --format '{{json .Manifest.Digest}}' | tr -d '"')
