@@ -1,4 +1,4 @@
-name: Lint, Test & Build
+name: Lint & Format
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
@@ -22,17 +22,6 @@ jobs:
         uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4.0.0
-        with:
-          version: latest
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4.1.0
-        with:
-          cache: "pnpm"
-          node-version: 25
 
       - name: Install Dependencies
         run: pnpm install
