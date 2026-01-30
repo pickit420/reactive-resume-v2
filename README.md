@@ -26,6 +26,12 @@
   </p>
 
   <p>
+    <img src="https://github.com/pickit420/reactive-resume-v2/actions/workflows/lint-format.yml/badge.svg" alt="Lint & Format" />
+    <img src="https://github.com/pickit420/reactive-resume-v2/actions/workflows/docker-build.yml/badge.svg" />
+    <img src="https://github.com/pickit420/reactive-resume-v2/actions/workflows/docker-build.yml/badge.svg?event=release" />
+  </p>
+
+  <p>
     <img src="https://img.shields.io/github/stars/pickit420/reactive-resume-v2?style=flat-square" alt="Stars" />
     <img src="https://img.shields.io/github/license/pickit420/reactive-resume-v2?style=flat-square" alt="License" />
     <img src="https://img.shields.io/docker/pulls/pickit420/reactive-resume-v2?style=flat-square" alt="Docker Pulls" />
