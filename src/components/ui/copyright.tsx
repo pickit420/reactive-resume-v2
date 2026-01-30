@@ -34,19 +34,26 @@ export function Copyright({ className, ...props }: Props) {
 					.
 				</Trans>
 			</p>
+
 			<p>
 				<Trans>
-					A project graciously adopted by{" "}
-					<a href="https://github.com/sponsors/lazy-media" target="_blank" rel="noopener noreferrer nofollow">
+					A project graciously forked by{" "}
+					<a
+						href="https://github.com/sponsors/lazy-media"
+						target="_blank"
+						rel="noopener noreferrer nofollow"
+						className="font-medium underline underline-offset-2"
+					>
 						Lazy Media
 					</a>{" "}
 					<p>
-						<i>(only as a backup though...)</i>.
+						<i>(only as a backup though...)</i>
 					</p>
 				</Trans>
 			</p>
 
 			<p className="mt-4">Reactive Resume v{__APP_VERSION__}</p>
+
 			<p>
 				<Trans>
 					Hosted on and powered by{" "}

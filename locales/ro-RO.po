@@ -114,7 +114,7 @@ msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "Un proiect de pasiune realizat de <0>Amruth Pillai</0>."
 
 #: src/components/ui/copyright.tsx
-msgid "A project graciously adopted by <0>Lazy Media</0> <1><2>(only as a backup though...)</2>.</1>"
+msgid "A project graciously forked by <0>Lazy Media</0> <1><2>(only as a backup though...)</2></1>"
 msgstr ""
 
 #: src/dialogs/resume/index.tsx

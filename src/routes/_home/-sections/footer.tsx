@@ -1,7 +1,7 @@
 import { t } from "@lingui/core/macro";
 import { Trans } from "@lingui/react/macro";
 import type { Icon } from "@phosphor-icons/react";
-import { GithubLogoIcon } from "@phosphor-icons/react";
+import { DiscordLogo, GithubLogoIcon, MastodonLogo } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { BrandIcon } from "@/components/ui/brand-icon";
@@ -40,6 +40,12 @@ const getCommunityLinks = (): FooterLinkItem[] => [
 
 const socialLinks: SocialLink[] = [
 	{ url: "https://github.com/sponsors/lazy-media", label: "GitHub", icon: GithubLogoIcon },
+	{ url: "https://social.lazymedia.media/@LazyMedia", label: "Mastodon", icon: MastodonLogo },
+	{
+		url: "https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587",
+		label: "Discord",
+		icon: DiscordLogo,
+	},
 ];
 
 export function Footer() {
