@@ -57,8 +57,12 @@ msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>அடிக்கடி</0><1>கேட்கப்படும்</1><2>கேள்விகள்</2>"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>Reactive Resume -ஐ பயன்படுத்தியதற்கு நன்றி! இந்த செயலி பெரும்பாலும் என்னுடைய ஓய்வு நேரத்தில், உலகம் முழுவதிலுமுள்ள திறந்த மூல பங்களிப்பாளர்களின் அற்புதமான ஆதரவுடன், நேசத்துடன் உருவாக்கப்பட்ட ஒரு முயற்சி.</0><1>Reactive Resume உங்களுக்கு பயனுள்ளதாக இருந்தது, மேலும் இதை அனைவருக்கும் இலவசமாகவும் திறந்தவண்ணமும் வைத்திருக்க உதவ விரும்பினால், தயவுசெய்து ஒரு நன்கொடை வழங்கிப் பார்க்கவும். நீங்கள் வழங்கும் ஒவ்வொரு சிறிய உதவியும் மதிக்கப்படுகிறது!</1>"
+msgid "<0>Note:</0> Reactive Resume was originally created and maintained by Amruth Pillai. If you would like to support the original maintainer, please consider donating using the links below."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in Amruth Pillai's spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
@@ -104,6 +108,10 @@ msgstr "உங்கள் மின்னஞ்சல் முகவரிக�
 #: src/components/ui/copyright.tsx
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "<0>அம்ருத் பிள்ளை</0> உருவாக்கிய ஒரு ஆர்வமான திட்டம்."
+
+#: src/components/ui/copyright.tsx
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
+msgstr ""
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx
@@ -848,6 +856,7 @@ msgid "Discord"
 msgstr "டிஸ்கார்ட்"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "ஆவணங்கள்"
@@ -1602,6 +1611,9 @@ msgstr "திறந்த மூல"
 
 #: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
@@ -1861,6 +1873,7 @@ msgstr "கடவுச்சொல் பாதுகாப்பை நீக�
 msgid "Rename"
 msgstr "மறுபெயரிடு"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
 msgstr "ஒரு பிழையை அறிவிக்கவும்"
@@ -2123,6 +2136,7 @@ msgstr "இதன்படி வரிசைப்படுத்து"
 
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Source Code"
 msgstr "மூல குறியீடு"
 
@@ -2138,6 +2152,7 @@ msgstr "இடைவெளி (செங்குத்து)"
 msgid "Spanish"
 msgstr "ஸ்பானிஷ்"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Sponsors"
 msgstr "ஆதார ஆதாரவர்கள்"
@@ -2179,7 +2194,7 @@ msgstr "கோடு கிழித்தல்"
 
 #: src/routes/_home/-sections/footer.tsx
 msgid "Subreddit"
-msgstr "சப்"
+msgstr "சப்\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v"
 
 #: src/utils/resume/section.tsx
 msgid "Summary"
@@ -2368,6 +2383,7 @@ msgid "Track your resume's views and downloads"
 msgstr "உங்கள் ரெஸ்யூமியின் பார்வை மற்றும் பதிவிறக்கம் எண்ணிக்கைகளை கண்காணிக்கவும்"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
 msgstr "மொழிபெயர்ப்புகள்"
@@ -2786,4 +2802,3 @@ msgstr "சிறிதாக்கு"
 #: src/utils/locale.ts
 msgid "Zulu"
 msgstr "ஜூலு"
-

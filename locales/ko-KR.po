@@ -57,8 +57,12 @@ msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>자주</0><1>묻는</1><2>질문</2>"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>Reactive Resume를 사용해 주셔서 감사합니다! 이 앱은 전 세계 오픈 소스 기여자들의 훌륭한 지원을 받으며, 주로 제 개인 시간을 들여 애정을 담아 만든 프로젝트입니다.</0><1>Reactive Resume가 도움이 되었다면, 모두가 자유롭게 사용할 수 있도록 유지하는 데 힘을 보태 주세요. 크고 작은 모든 기부가 큰 도움이 됩니다!</1>"
+msgid "<0>Note:</0> Reactive Resume was originally created and maintained by Amruth Pillai. If you would like to support the original maintainer, please consider donating using the links below."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in Amruth Pillai's spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
@@ -104,6 +108,10 @@ msgstr "새로운 인증 링크가 이메일 주소로 전송되었습니다. �
 #: src/components/ui/copyright.tsx
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "<0>Amruth Pillai</0>가 만든 열정 프로젝트입니다."
+
+#: src/components/ui/copyright.tsx
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
+msgstr ""
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx
@@ -848,6 +856,7 @@ msgid "Discord"
 msgstr "디스코드"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "문서"
@@ -1602,6 +1611,9 @@ msgstr "오픈 소스"
 
 #: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
@@ -1861,6 +1873,7 @@ msgstr "비밀번호 보호를 제거하는 중입니다..."
 msgid "Rename"
 msgstr "이름 바꾸기"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
 msgstr "버그 신고"
@@ -2123,6 +2136,7 @@ msgstr "정렬 기준"
 
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Source Code"
 msgstr "소스 코드"
 
@@ -2138,6 +2152,7 @@ msgstr "간격(세로)"
 msgid "Spanish"
 msgstr "스페인어"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Sponsors"
 msgstr "스폰서"
@@ -2368,6 +2383,7 @@ msgid "Track your resume's views and downloads"
 msgstr "이력서 조회 수와 다운로드 수 추적"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
 msgstr "번역"
@@ -2786,4 +2802,3 @@ msgstr "축소"
 #: src/utils/locale.ts
 msgid "Zulu"
 msgstr "줄루어"
-

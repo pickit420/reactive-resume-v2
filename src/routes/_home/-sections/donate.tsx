@@ -4,6 +4,8 @@ import {
 	GithubLogoIcon,
 	HeartIcon,
 	type IconProps,
+	PatreonLogo,
+	PaypalLogo,
 	RocketIcon,
 	SparkleIcon,
 	UsersIcon,
@@ -205,17 +207,41 @@ export const DonationBanner = () => (
 				transition={{ duration: 0.6, delay: 0.6 }}
 			>
 				<Button asChild size="lg" className="h-11 gap-2 px-6">
-					<a href="https://opencollective.com/reactive-resume" target="_blank" rel="noopener">
+					<a href="https://github.com/sponsors/lazy-media" target="_blank" rel="noopener">
 						<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
-						Open Collective
+						GitHub Sponsors
 						<span className="sr-only"> ({t`opens in new tab`})</span>
 					</a>
 				</Button>
 
 				<Button asChild size="lg" className="h-11 gap-2 px-6">
-					<a href="https://github.com/sponsors/AmruthPillai" target="_blank" rel="noopener">
+					<a href="https://coff.ee/lazymedia" target="_blank" rel="noopener">
 						<GithubLogoIcon aria-hidden="true" weight="fill" className="text-zinc-400 dark:text-zinc-600" />
-						GitHub Sponsors
+						Buy Me a Coffee
+						<span className="sr-only"> ({t`opens in new tab`})</span>
+					</a>
+				</Button>
+
+				<Button asChild size="lg" className="h-11 gap-2 px-6">
+					<a href="https://paypal.me/lazymediawa" target="_blank" rel="noopener">
+						<PaypalLogo aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
+						PayPal
+						<span className="sr-only"> ({t`opens in new tab`})</span>
+					</a>
+				</Button>
+
+				<Button asChild size="lg" className="h-11 gap-2 px-6">
+					<a href="https://www.patreon.com/lazymedia" target="_blank" rel="noopener">
+						<PatreonLogo aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
+						Patreon
+						<span className="sr-only"> ({t`opens in new tab`})</span>
+					</a>
+				</Button>
+
+				<Button asChild size="lg" className="h-11 gap-2 px-6">
+					<a href="https://venmo.com/lazymedia/" target="_blank" rel="noopener">
+						<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
+						Venmo
 						<span className="sr-only"> ({t`opens in new tab`})</span>
 					</a>
 				</Button>

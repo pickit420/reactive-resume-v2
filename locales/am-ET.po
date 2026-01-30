@@ -57,8 +57,12 @@ msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>ብዙ ጊዜ</0><1>የሚጠየቁ</1><2>ጥያቄዎች</2>"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>Reactive Resume በመጠቀምዎ እናመሰግናለን! ይህ መተግበሪያ በፍቅር የተሰራ ፕሮጀክት ሲሆን በብዙው ጊዜዬ እንኳን ከሥራ በስተቀር በዓለም ዙሪያ ካሉ ክፍት ምንጭ አሳታሚዎች በግርማ ድጋፍ ተገንብቷል።</0><1>Reactive Resume ከረዳዎት እና ለሁሉም ነፃ እና ክፍት እንዲቆይ መርዳት ብትፈልጉ መዋጮ ማድረግን ያስቡ። ማንኛውም ትንሽ ድጋፍ ታላቅ ነው።</1>"
+msgid "<0>Note:</0> Reactive Resume was originally created and maintained by Amruth Pillai. If you would like to support the original maintainer, please consider donating using the links below."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in Amruth Pillai's spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
@@ -104,6 +108,10 @@ msgstr "አዲስ የማረጋገጫ አገናኝ ወደ ኢሜል አድራሻ�
 #: src/components/ui/copyright.tsx
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "በ<0>Amruth Pillai</0> የተጀመረ የልብ ፕሮጀክት።"
+
+#: src/components/ui/copyright.tsx
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
+msgstr ""
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx
@@ -848,6 +856,7 @@ msgid "Discord"
 msgstr "ዲስኮርድ"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "ሰነዶች"
@@ -1602,6 +1611,9 @@ msgstr "ክፍት ምንጭ"
 
 #: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
@@ -1861,6 +1873,7 @@ msgstr "የይለፍ ቃል ጥበቃን በማስወገድ ላይ…"
 msgid "Rename"
 msgstr "ስም ቀይር"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
 msgstr "ስህተት ሪፖርት አድርግ"
@@ -2123,6 +2136,7 @@ msgstr "መደብ በ"
 
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Source Code"
 msgstr "የምንጭ ኮድ"
 
@@ -2138,6 +2152,7 @@ msgstr "ክፍተት (አቀባዊ)"
 msgid "Spanish"
 msgstr "ስፓኒሽ"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Sponsors"
 msgstr "አስተናጋጆች"
@@ -2368,6 +2383,7 @@ msgid "Track your resume's views and downloads"
 msgstr "የየታሪክዎን ተመልካቶች እና ዝቅተኛ የወረዱ ቁጥር ይከታተሉ"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
 msgstr "ትርጉሞች"
@@ -2786,4 +2802,3 @@ msgstr "አጉር"
 #: src/utils/locale.ts
 msgid "Zulu"
 msgstr "ዙሉ"
-

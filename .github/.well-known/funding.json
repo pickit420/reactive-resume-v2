@@ -4,11 +4,11 @@
 	"entity": {
 		"type": "individual",
 		"role": "maintainer",
-		"name": "Amruth Pillai",
-		"email": "im.amruth@gmail.com",
-		"description": "Software Engineer",
+		"name": "Lazy Media",
+		"email": "support@lazymedia.media",
+		"description": "Maintainer of Reactive Resume, a free and open-source resume builder.",
 		"webpageUrl": {
-			"url": "https://rxresu.me/funding.json"
+			"url": "https://rxresume.org/funding.json"
 		}
 	},
 	"projects": [
@@ -17,11 +17,11 @@
 			"name": "Reactive Resume",
 			"description": "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.",
 			"webpageUrl": {
-				"url": "https://rxresu.me"
+				"url": "https://rxresume.org"
 			},
 			"repositoryUrl": {
-				"url": "https://github.com/amruthpillai/reactive-resume",
-				"wellKnown": "https://github.com/amruthpillai/reactive-resume/blob/main/.github/.well-known/funding-manifest-urls"
+				"url": "https://github.com/pickit420/reactive-resume",
+				"wellKnown": "https://github.com/pickit420/reactive-resume/blob/main/.github/.well-known/funding-manifest-urls"
 			},
 			"licenses": ["spdx:MIT"],
 			"tags": ["data", "design", "productivity", "resume-builder"]
@@ -35,9 +35,9 @@
 				"name": "Sponsor",
 				"description": "Support the project on a recurring basis by becoming a sponsor.",
 				"amount": 10,
-				"currency": "EUR",
+				"currency": "USD",
 				"frequency": "monthly",
-				"channels": ["github", "open-collective"]
+				"channels": ["github", "buy-me-a-coffee"]
 			},
 			{
 				"guid": "donation",
@@ -45,9 +45,9 @@
 				"name": "Donation",
 				"description": "Show your support for the project by making a one-time donation.",
 				"amount": 0,
-				"currency": "EUR",
+				"currency": "USD",
 				"frequency": "one-time",
-				"channels": ["github", "open-collective"]
+				"channels": ["github", "buy-me-a-coffee"]
 			}
 		],
 		"channels": [
@@ -55,13 +55,13 @@
 				"guid": "github",
 				"type": "payment-provider",
 				"description": "GitHub Sponsors",
-				"address": "https://github.com/sponsors/AmruthPillai"
+				"address": "https://github.com/sponsors/lazy-media"
 			},
 			{
-				"guid": "open-collective",
+				"guid": "buy-me-a-coffee",
 				"type": "payment-provider",
-				"description": "Open Collective",
-				"address": "https://opencollective.com/reactive-resume"
+				"description": "Buy Me a Coffee",
+				"address": "https://www.buymeacoffee.com/lazymedia"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 import { t } from "@lingui/core/macro";
 import { Trans } from "@lingui/react/macro";
 import type { Icon } from "@phosphor-icons/react";
-import { GithubLogoIcon, LinkedinLogoIcon, XLogoIcon } from "@phosphor-icons/react";
+import { GithubLogoIcon } from "@phosphor-icons/react";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { BrandIcon } from "@/components/ui/brand-icon";
@@ -25,23 +25,21 @@ type SocialLink = {
 };
 
 const getResourceLinks = (): FooterLinkItem[] => [
-	{ url: "https://docs.rxresu.me", label: t`Documentation` },
-	{ url: "https://opencollective.com/reactive-resume", label: t`Sponsorships` },
-	{ url: "https://github.com/amruthpillai/reactive-resume", label: t`Source Code` },
-	{ url: "https://docs.rxresu.me/changelog", label: t`Changelog` },
+	{ url: "https://docs.rxresume.org", label: t`Documentation` },
+	{ url: "https://github.com/sponsors/lazy-media", label: t`Sponsorships` },
+	{ url: "https://github.com/pickit420/reactive-resume-v2", label: t`Source Code` },
+	{ url: "https://docs.rxresume.org/changelog", label: t`Changelog` },
 ];
 
 const getCommunityLinks = (): FooterLinkItem[] => [
-	{ url: "https://github.com/amruthpillai/reactive-resume/issues", label: t`Report an issue` },
-	{ url: "https://crowdin.com/project/reactive-resume", label: t`Translations` },
+	{ url: "https://github.com/pickit420/reactive-resume-v2/issues", label: t`Report an issue` },
+	{ url: "https://crowdin.com/project/lazymedia-reactive-resume", label: t`Translations` },
 	{ url: "https://reddit.com/r/reactiveresume", label: t`Subreddit` },
 	{ url: "https://discord.gg/EE8yFqW4", label: t`Discord` },
 ];
 
 const socialLinks: SocialLink[] = [
-	{ url: "https://github.com/amruthpillai/reactive-resume", label: "GitHub", icon: GithubLogoIcon },
-	{ url: "https://linkedin.com/in/amruthpillai", label: "LinkedIn", icon: LinkedinLogoIcon },
-	{ url: "https://x.com/KingOKings", label: "X (Twitter)", icon: XLogoIcon },
+	{ url: "https://github.com/sponsors/lazy-media", label: "GitHub", icon: GithubLogoIcon },
 ];
 
 export function Footer() {

@@ -49,7 +49,7 @@ export function Hero() {
 					transition={{ duration: 0.6, delay: 0.8 }}
 					target="_blank"
 					rel="noopener"
-					href="https://docs.rxresu.me/getting-started"
+					href="https://docs.rxresume.org/getting-started"
 				>
 					<Badge variant="secondary" className="h-auto gap-1.5 px-3 py-0.5">
 						<SparkleIcon aria-hidden="true" className="size-3.5" weight="fill" />
@@ -104,7 +104,7 @@ export function Hero() {
 					</Button>
 
 					<Button asChild size="lg" variant="ghost" className="gap-2 px-4">
-						<a href="https://docs.rxresu.me" target="_blank" rel="noopener">
+						<a href="https://docs.rxresume.org" target="_blank" rel="noopener">
 							<BookIcon aria-hidden="true" className="size-4" />
 							<Trans>Learn More</Trans>
 							<span className="sr-only">

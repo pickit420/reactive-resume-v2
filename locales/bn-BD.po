@@ -57,8 +57,12 @@ msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>প্রায়ই</0><1>জিজ্ঞাসিত</1><2>প্রশ্ন</2>"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>Reactive Resume ব্যবহারের জন্য আপনাকে ধন্যবাদ! এই অ্যাপটি ভালোবাসা দিয়ে তৈরি, বেশির ভাগই আমার অবসর সময়ে, সারা বিশ্বের মুক্ত উৎস অবদানকারীদের অসাধারণ সহায়তায়।</0><1>যদি Reactive Resume আপনার কাজে লাগে এবং আপনি চান যে এটি সবার জন্য বিনামূল্যে ও উন্মুক্ত থাকুক, তাহলে অনুদান দেওয়ার কথা বিবেচনা করুন। অল্প হলেও প্রতিটি অবদানকে কৃতজ্ঞতার সঙ্গে গ্রহণ করা হয়!</1>"
+msgid "<0>Note:</0> Reactive Resume was originally created and maintained by Amruth Pillai. If you would like to support the original maintainer, please consider donating using the links below."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in Amruth Pillai's spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
@@ -104,6 +108,10 @@ msgstr "আপনার ইমেইল ঠিকানায় একটি �
 #: src/components/ui/copyright.tsx
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "<0>অমরুথ পিল্লাই</0>-এর একান্ত আগ্রহের প্রজেক্ট।"
+
+#: src/components/ui/copyright.tsx
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
+msgstr ""
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx
@@ -848,6 +856,7 @@ msgid "Discord"
 msgstr "ডিসকর্ড"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "ডকুমেন্টেশন"
@@ -1602,6 +1611,9 @@ msgstr "মুক্ত উৎস"
 
 #: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
@@ -1861,6 +1873,7 @@ msgstr "পাসওয়ার্ড সুরক্ষা সরানো হ
 msgid "Rename"
 msgstr "নাম বদলান"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
 msgstr "বাগ রিপোর্ট করুন"
@@ -2123,6 +2136,7 @@ msgstr "সর্ট করুন"
 
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Source Code"
 msgstr "সোর্স কোড"
 
@@ -2138,6 +2152,7 @@ msgstr "স্পেসিং (উল্লম্ব)"
 msgid "Spanish"
 msgstr "স্প্যানিশ"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Sponsors"
 msgstr "স্পনসররা"
@@ -2368,6 +2383,7 @@ msgid "Track your resume's views and downloads"
 msgstr "আপনার জীবনবৃত্তান্তের ভিউ এবং ডাউনলোডের সংখ্যা ট্র্যাক করুন"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
 msgstr "অনুবাদসমূহ"
@@ -2786,4 +2802,3 @@ msgstr "জুম আউট"
 #: src/utils/locale.ts
 msgid "Zulu"
 msgstr "জুলু"
-

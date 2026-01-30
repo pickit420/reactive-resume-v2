@@ -3,8 +3,8 @@ name: ✨ Feature Request
 description: Suggest an feature or idea that you would like to see in Reactive Resume
 
 title: "[Feature] <title>"
-labels: [enhancement, v5, needs triage]
-assignees: "AmruthPillai"
+labels: [enhancement, v2, needs triage]
+assignees: "lazy-media"
 
 body:
   - type: checkboxes

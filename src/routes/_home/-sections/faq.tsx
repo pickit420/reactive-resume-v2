@@ -6,7 +6,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/utils/style";
 
-const crowdinUrl = "https://crowdin.com/project/reactive-resume";
+const crowdinUrl = "https://crowdin.com/project/lazymedia-reactive-resume";
 
 type FAQItemData = {
 	question: string;

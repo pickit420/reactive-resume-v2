@@ -7,8 +7,8 @@
 	"seo": {
 		"indexing": "all",
 		"metatags": {
-			"canonical": "https://docs.rxresu.me",
-			"og:image": "https://rxresu.me/opengraph/banner.jpg"
+			"canonical": "https://docs.rxresume.org",
+			"og:image": "https://rxresume.org/opengraph/banner.jpg"
 		}
 	},
 	"fonts": {
@@ -104,12 +104,12 @@
 				{
 					"icon": "link",
 					"anchor": "Reactive Resume",
-					"href": "https://rxresu.me"
+					"href": "https://rxresume.org"
 				},
 				{
 					"icon": "github",
 					"anchor": "Source Code",
-					"href": "https://github.com/amruthpillai/reactive-resume"
+					"href": "https://github.com/pickit420/reactive-resume-v2"
 				}
 			]
 		}
@@ -122,13 +122,13 @@
 		"links": [
 			{
 				"label": "Support",
-				"href": "https://github.com/amruthpillai/reactive-resume/issues"
+				"href": "https://github.com/pickit420/reactive-resume-v2/issues"
 			}
 		],
 		"primary": {
 			"type": "button",
 			"label": "Get Started",
-			"href": "https://rxresu.me"
+			"href": "https://rxresume.org"
 		}
 	},
 	"contextual": {
@@ -136,8 +136,8 @@
 	},
 	"footer": {
 		"socials": {
-			"website": "https://rxresu.me",
-			"github": "https://github.com/amruthpillai/reactive-resume"
+			"website": "https://rxresume.org",
+			"github": "https://github.com/pickit420/reactive-resume-v2"
 		}
 	}
 }

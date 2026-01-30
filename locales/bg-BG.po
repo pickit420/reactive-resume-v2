@@ -57,8 +57,12 @@ msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>Често</0><1>Задавани</1><2>Въпроси</2>"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>Благодарим ви, че използвате Reactive Resume! Това приложение е плод на любов, създадено предимно в свободното ми време, с чудесната подкрепа на сътрудници на отворен код от цял свят.</0><1>Ако Reactive Resume ви е било полезно и бихте искали да помогнете то да остане безплатно и отворено за всички, моля, помислете за дарение. Всяка малка част се оценява!</1>"
+msgid "<0>Note:</0> Reactive Resume was originally created and maintained by Amruth Pillai. If you would like to support the original maintainer, please consider donating using the links below."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in Amruth Pillai's spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
@@ -104,6 +108,10 @@ msgstr "На имейл адреса ви е изпратена нова връ�
 #: src/components/ui/copyright.tsx
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "Проект на страст <0>Amruth Pillai</0>."
+
+#: src/components/ui/copyright.tsx
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
+msgstr ""
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx
@@ -848,6 +856,7 @@ msgid "Discord"
 msgstr "Discord"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "Документация"
@@ -1602,6 +1611,9 @@ msgstr "Отворен код"
 
 #: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
@@ -1861,6 +1873,7 @@ msgstr "Премахване на защитата с парола..."
 msgid "Rename"
 msgstr "Преименуване"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
 msgstr "Съобщаване за грешка"
@@ -2123,6 +2136,7 @@ msgstr "Сортиране по"
 
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Source Code"
 msgstr "Изходен код"
 
@@ -2138,6 +2152,7 @@ msgstr "Разстояние (вертикално)"
 msgid "Spanish"
 msgstr "Испански"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Sponsors"
 msgstr "Спонсори"
@@ -2368,6 +2383,7 @@ msgid "Track your resume's views and downloads"
 msgstr "Следете колко пъти вашата автобиография е била преглеждана и изтегляна"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
 msgstr "Преводи"
@@ -2786,4 +2802,3 @@ msgstr "Намаляване"
 #: src/utils/locale.ts
 msgid "Zulu"
 msgstr "Зулуски"
-
