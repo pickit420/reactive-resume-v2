@@ -34,3 +34,9 @@ jobs:
 
       - name: TypeCheck
         run: pnpm run typecheck
+
+      - name: Translation Extraction
+        run: pnpm run lingui:extract
+
+      - name: Vite Build
+        run: pnpm run build
