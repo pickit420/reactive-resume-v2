@@ -38,17 +38,19 @@ export function Copyright({ className, ...props }: Props) {
 			<p>
 				<Trans>
 					A project graciously forked by{" "}
-					<a
-						href="https://github.com/sponsors/lazy-media"
-						target="_blank"
-						rel="noopener noreferrer nofollow"
-						className="font-medium underline underline-offset-2"
-					>
-						Lazy Media
-					</a>{" "}
-					<p>
+					<span>
+						<a
+							href="https://github.com/sponsors/lazy-media"
+							target="_blank"
+							rel="noopener noreferrer nofollow"
+							className="font-medium underline underline-offset-2"
+						>
+							Lazy Media
+						</a>
+					</span>
+					<div>
 						<i>(only as a backup though...)</i>
-					</p>
+					</div>
 				</Trans>
 			</p>
 
@@ -57,7 +59,7 @@ export function Copyright({ className, ...props }: Props) {
 			<p>
 				<Trans>
 					Hosted on and powered by{" "}
-					<p>
+					<div>
 						<a
 							href="https://www.oracle.com/cloud/free/"
 							target="_blank"
@@ -66,8 +68,8 @@ export function Copyright({ className, ...props }: Props) {
 						>
 							Oracle Cloud Free Tier
 						</a>
-					</p>
-					<p>since 2025</p>
+					</div>
+					<span>since 2025</span>
 				</Trans>
 			</p>
 		</div>

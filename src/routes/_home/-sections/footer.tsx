@@ -39,7 +39,7 @@ const getCommunityLinks = (): FooterLinkItem[] => [
 ];
 
 const socialLinks: SocialLink[] = [
-	{ url: "https://github.com/sponsors/lazy-media", label: "GitHub", icon: GithubLogoIcon },
+	{ url: "https://github.com/sponsors/lazy-media", label: "GitHub Sponsors", icon: GithubLogoIcon },
 	{ url: "https://social.lazymedia.media/@LazyMedia", label: "Mastodon", icon: MastodonLogo },
 	{
 		url: "https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587",
