@@ -26,7 +26,7 @@
   </p>
 
   <p>
-    <img src="https://github.com/pickit420/reactive-resume-v2/actions/workflows/lint-format.yml/badge.svg" alt="Lint & Format" />
+    <img src="https://github.com/pickit420/reactive-resume-v2/actions/workflows/lint-format-translations-build.yml/badge.svg" alt="Lint & Format" />
     <img src="https://github.com/pickit420/reactive-resume-v2/actions/workflows/docker-build.yml/badge.svg" />
     <img src="https://github.com/pickit420/reactive-resume-v2/actions/workflows/docker-build.yml/badge.svg?event=release" />
   </p>

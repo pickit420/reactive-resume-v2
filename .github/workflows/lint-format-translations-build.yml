@@ -1,4 +1,4 @@
-name: Lint, Format, Translation Extraction & Build
+name: Lint, Format, Translations, Build
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
