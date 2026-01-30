@@ -23,6 +23,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install PNPM
+        run: npm install -g pnpm
+
       - name: Install Dependencies
         run: pnpm install
 
