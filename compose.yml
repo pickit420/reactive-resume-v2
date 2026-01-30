@@ -72,9 +72,7 @@ services:
         condition: service_healthy
 
   app:
-    # image: pickit420/reactive-resume-v2:latest
-    # image: ghcr.io/pickit420/reactive-resume-v2:latest
-    image: rrtest:latest
+    image: ${APP_IMAGE:-pickit420/reactive-resume-v2}:${APP_TAG:-latest}
     environment:
       # Server
       - TZ=${TZ:-Etc/UTC}
@@ -124,7 +122,7 @@ services:
     volumes:
       - reactive_resume_data:/app/data
     ports:
-      - "3001:3000"
+      - "${APP_PORT:-3000}:3000"
     depends_on:
       postgres:
         condition: service_healthy
