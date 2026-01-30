@@ -245,6 +245,27 @@ export const DonationBanner = () => (
 						<span className="sr-only"> ({t`opens in new tab`})</span>
 					</a>
 				</Button>
+
+				<p>
+					If you would like to contribute directly to the original maintainer, Amruth Pillai, please consider donating
+					via:
+				</p>
+
+				<Button asChild size="lg" className="h-11 gap-2 px-6">
+					<a href="https://opencollective.com/reactive-resume" target="_blank" rel="noopener">
+						<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
+						Open Collective
+						<span className="sr-only"> ({t`opens in new tab`})</span>
+					</a>
+				</Button>
+
+				<Button asChild size="lg" className="h-11 gap-2 px-6">
+					<a href="https://github.com/sponsors/AmruthPillai" target="_blank" rel="noopener">
+						<GithubLogoIcon aria-hidden="true" weight="fill" className="text-zinc-400 dark:text-zinc-600" />
+						GitHub Sponsors
+						<span className="sr-only"> ({t`opens in new tab`})</span>
+					</a>
+				</Button>
 			</motion.div>
 
 			{/* Footer note */}

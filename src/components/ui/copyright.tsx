@@ -45,6 +45,16 @@ export function Copyright({ className, ...props }: Props) {
 			</p>
 
 			<p className="mt-4">Reactive Resume v{__APP_VERSION__}</p>
+			<p>
+				<a href="https://www.oracle.com/cloud/free/" target="_blank" rel="noopener noreferrer nofollow">
+					<img
+						src="public/oracle-cloud.png"
+						alt="Powered by Oracle Cloud"
+						className="block dark:block"
+						width="150px"
+					/>
+				</a>
+			</p>
 		</div>
 	);
 }
