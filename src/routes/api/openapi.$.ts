@@ -36,11 +36,11 @@ async function handler({ request }: { request: Request }) {
 				title: "Reactive Resume",
 				version: "5.0.0",
 				description: "Reactive Resume API",
-				license: { name: "MIT", url: "https://github.com/amruthpillai/reactive-resume/blob/main/LICENSE" },
-				contact: { name: "Amruth Pillai", email: "hello@amruthpillai.com", url: "https://amruthpillai.com" },
+				license: { name: "MIT", url: "https://github.com/pickit420/reactive-resume-v2/blob/main/LICENSE" },
+				contact: { name: "Lazy Media", email: "support@lazymedia.media", url: "https://rxresume.org" },
 			},
 			servers: [{ url: `${env.APP_URL}/api/openapi` }],
-			externalDocs: { url: "https://docs.rxresu.me", description: "Reactive Resume Documentation" },
+			externalDocs: { url: "https://docs.rxresume.org", description: "Reactive Resume Documentation" },
 			components: {
 				securitySchemes: {
 					apiKey: {

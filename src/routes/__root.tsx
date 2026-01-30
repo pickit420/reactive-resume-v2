@@ -42,7 +42,7 @@ await loadLocale(await getLocale());
 export const Route = createRootRouteWithContext<RouterContext>()({
 	shellComponent: RootDocument,
 	head: () => {
-		const appUrl = process.env.APP_URL ?? "https://rxresu.me/";
+		const appUrl = process.env.APP_URL ?? "https://rxresume.org/";
 
 		return {
 			links: [

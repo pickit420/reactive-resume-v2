@@ -5,7 +5,7 @@ import { schema } from "@/integrations/drizzle";
 import { db } from "@/integrations/drizzle/client";
 
 const CACHE_DURATION_MS = 6 * 60 * 60 * 1000; // 6 hours
-const GITHUB_API_URL = "https://api.github.com/repos/amruthpillai/reactive-resume";
+const GITHUB_API_URL = "https://api.github.com/repos/pickit420/reactive-resume-v2";
 
 const LAST_KNOWN = {
 	users: 978_528,
