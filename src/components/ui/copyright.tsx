@@ -50,16 +50,17 @@ export function Copyright({ className, ...props }: Props) {
 			<p>
 				<Trans>
 					Hosted on and powered by{" "}
-					<a
-						href="https://www.oracle.com/cloud/free/"
-						target="_blank"
-						rel="noopener noreferrer nofollow"
-						className="font-medium underline underline-offset-2"
-					>
-						<img src="./public/oracle-cloud.png" />
-						Oracle Cloud Free Tier since 2025
-					</a>
-					.
+					<p>
+						<a
+							href="https://www.oracle.com/cloud/free/"
+							target="_blank"
+							rel="noopener noreferrer nofollow"
+							className="font-medium underline underline-offset-2"
+						>
+							Oracle Cloud Free Tier
+						</a>
+					</p>
+					<p>since 2025</p>
 				</Trans>
 			</p>
 		</div>

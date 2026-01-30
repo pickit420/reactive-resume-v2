@@ -1251,7 +1251,7 @@ msgid "Home"
 msgstr "Trang chủ"
 
 #: src/components/ui/copyright.tsx
-msgid "Hosted on and powered by <0><1/>Oracle Cloud Free Tier since 2025</0>."
+msgid "Hosted on and powered by <0><1>Oracle Cloud Free Tier</1></0><2>since 2025</2>"
 msgstr ""
 
 #: src/routes/_home/-sections/faq.tsx

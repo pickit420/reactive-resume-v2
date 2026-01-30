@@ -210,7 +210,7 @@ export const DonationBanner = () => (
 				<p>
 					<Button asChild size="lg" className="h-11 gap-2 px-6">
 						<a href="https://github.com/sponsors/lazy-media" target="_blank" rel="noreferrer noopener">
-							<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
+							<GithubLogoIcon aria-hidden="true" weight="fill" className="text-zinc-400 dark:text-zinc-600" />
 							GitHub Sponsors
 							<span className="sr-only"> ({t`opens in new tab`})</span>
 						</a>
@@ -218,7 +218,7 @@ export const DonationBanner = () => (
 
 					<Button asChild size="lg" className="h-11 gap-2 px-6">
 						<a href="https://coff.ee/lazymedia" target="_blank" rel="noreferrer noopener">
-							<GithubLogoIcon aria-hidden="true" weight="fill" className="text-zinc-400 dark:text-zinc-600" />
+							<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
 							Buy Me a Coffee
 							<span className="sr-only"> ({t`opens in new tab`})</span>
 						</a>

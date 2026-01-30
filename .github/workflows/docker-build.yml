@@ -215,4 +215,4 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           script: |
             cd docker
-            ./manage_stack.sh up reactive_resume
+            ./docker_update.sh up reactive_resume
