@@ -309,6 +309,10 @@ msgstr "Štatistiky aplikácie"
 msgid "Arabic"
 msgstr "Arabčina"
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Are you sure you want to close this dialog?"
+msgstr ""
+
 #: src/routes/dashboard/settings/api-keys.tsx
 msgid "Are you sure you want to delete this API key?"
 msgstr "Naozaj chceš tento API kľúč vymazať?"
@@ -1422,6 +1426,10 @@ msgstr "Zistiť viac"
 msgid "Learn more about how to fit content on a page"
 msgstr "Zistite viac o tom, ako prispôsobiť obsah na stránku"
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Leave"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
 msgid "Leave empty to reset the title to the original."
 msgstr "Ak necháš prázdne, názov sa vráti na pôvodný."
@@ -2223,6 +2231,10 @@ msgstr ""
 msgid "Status Pages"
 msgstr ""
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Stay"
+msgstr ""
+
 #: src/components/input/rich-input.tsx
 msgid "Strike"
 msgstr "Prečiarknuté"
@@ -2749,6 +2761,10 @@ msgstr "Svoj životopis môžeš zdieľať pomocou unikátnej verejnej URL adres
 #: src/routes/dashboard/settings/authentication/-components/passkeys.tsx
 msgid "You cannot use the passkey \"{0}\" anymore to sign in after deletion. This action cannot be undone."
 msgstr "Po vymazaní už nebudeš môcť použiť prístupový kľúč \"{0}\" na prihlásenie. Túto akciu nemožno vrátiť späť."
+
+#: src/hooks/use-form-blocker.tsx
+msgid "You have unsaved changes that will be lost."
+msgstr ""
 
 #: src/routes/auth/forgot-password.tsx
 #: src/routes/auth/register.tsx
