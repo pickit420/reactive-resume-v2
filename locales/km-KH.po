@@ -476,6 +476,8 @@ msgstr "តើ​ខ្ញុំ​អាច​នាំចេញ​ប្រវ
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/hooks/use-prompt.tsx
@@ -582,6 +584,10 @@ msgstr "អះអាង"
 msgid "Connect"
 msgstr "តភ្ជាប់"
 
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr ""
+
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
@@ -636,6 +642,7 @@ msgstr "ចម្លង URL"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create"
 msgstr "បង្កើត"
@@ -703,6 +710,10 @@ msgstr "បង្កើត​ប្រវត្តិរូប​ថ្មី"
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Create a new skill"
 msgstr "បង្កើត​ជំនាញ​ថ្មី"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create a new volunteer experience"
@@ -1985,6 +1996,7 @@ msgstr "Russian"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/routes/dashboard/settings/profile.tsx
 msgid "Save Changes"
@@ -2596,6 +2608,10 @@ msgstr "បច្ចុប្បន្នភាព​យោង​មាន​ស
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Update an existing skill"
 msgstr "បច្ចុប្បន្នភាព​ជំនាញ​មាន​ស្រាប់"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Update an existing volunteer experience"

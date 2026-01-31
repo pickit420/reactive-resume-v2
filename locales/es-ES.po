@@ -476,6 +476,8 @@ msgstr "¿Puedo exportar mi currículum a PDF?"
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/hooks/use-prompt.tsx
@@ -582,6 +584,10 @@ msgstr "Confirmar"
 msgid "Connect"
 msgstr "Conectar"
 
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr ""
+
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
@@ -636,6 +642,7 @@ msgstr "Copiar URL"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create"
 msgstr "Crear"
@@ -703,6 +710,10 @@ msgstr "Crear un nuevo currículum"
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Create a new skill"
 msgstr "Crear una nueva habilidad"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create a new volunteer experience"
@@ -1985,6 +1996,7 @@ msgstr "Ruso"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/routes/dashboard/settings/profile.tsx
 msgid "Save Changes"
@@ -2596,6 +2608,10 @@ msgstr "Actualizar una referencia existente"
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Update an existing skill"
 msgstr "Actualizar una habilidad existente"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Update an existing volunteer experience"

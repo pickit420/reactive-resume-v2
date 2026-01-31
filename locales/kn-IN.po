@@ -476,6 +476,8 @@ msgstr "ನಾನು ನನ್ನ ರೆಸ್ಯೂಮ್ ಅನ್ನು PDF �
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/hooks/use-prompt.tsx
@@ -582,6 +584,10 @@ msgstr "ದೃಢೀಕರಿಸಿ"
 msgid "Connect"
 msgstr "ಕನೆಕ್ಟ್ ಮಾಡಿ"
 
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr ""
+
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
@@ -636,6 +642,7 @@ msgstr "URL ನಕಲಿಸಿ"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create"
 msgstr "ರಚಿಸಿ"
@@ -703,6 +710,10 @@ msgstr "ಹೊಸ ರೆಸ್ಯೂಮ್ ಅನ್ನು ರಚಿಸಿ"
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Create a new skill"
 msgstr "ಹೊಸ ಕೌಶಲ್ಯವನ್ನು ರಚಿಸಿ"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create a new volunteer experience"
@@ -1985,6 +1996,7 @@ msgstr "ರಷಿಯನ್"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/routes/dashboard/settings/profile.tsx
 msgid "Save Changes"
@@ -2596,6 +2608,10 @@ msgstr "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಪರಿಚಯವನ�
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Update an existing skill"
 msgstr "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಕೌಶಲ್ಯವನ್ನು ನವೀಕರಿಸಿ"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Update an existing volunteer experience"
