@@ -109,8 +109,8 @@ msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "A passion project by <0>Amruth Pillai</0>."
 
 #: src/components/ui/copyright.tsx
-msgid "A project graciously adopted by <0>Lazy Media</0> <1><2>(only as a backup though...)</2>.</1>"
-msgstr "A project graciously adopted by <0>Lazy Media</0> <1><2>(only as a backup though...)</2>.</1>"
+msgid "A project graciously forked by <0><1>Lazy Media</1></0><2><3>(only as a backup though...)</3></2>"
+msgstr "A project graciously forked by <0><1>Lazy Media</1></0><2><3>(only as a backup though...)</3></2>"
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx
@@ -1246,8 +1246,8 @@ msgid "Home"
 msgstr "Home"
 
 #: src/components/ui/copyright.tsx
-msgid "Hosted on and powered by <0><1/>Oracle Cloud Free Tier since 2025</0>."
-msgstr "Hosted on and powered by <0><1/>Oracle Cloud Free Tier since 2025</0>."
+msgid "Hosted on and powered by <0><1>Oracle Cloud Free Tier</1></0><2>since 2025</2>"
+msgstr "Hosted on and powered by <0><1>Oracle Cloud Free Tier</1></0><2>since 2025</2>"
 
 #: src/routes/_home/-sections/faq.tsx
 msgid "How do I share my resume?"
