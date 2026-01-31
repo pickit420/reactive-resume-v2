@@ -851,6 +851,7 @@ msgid "Disconnect"
 msgstr ""
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/_home/-sections/footer.tsx
 msgid "Discord"
 msgstr ""
 
@@ -858,6 +859,10 @@ msgstr ""
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Domain Blacklist Check"
 msgstr ""
 
 #: src/routes/auth/login.tsx
@@ -1132,6 +1137,10 @@ msgstr ""
 
 #: src/routes/_home/-sections/hero.tsx
 msgid "Get Started"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "GitHub Sponsors"
 msgstr ""
 
 #: src/components/layout/not-found-screen.tsx
@@ -1519,6 +1528,10 @@ msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
 msgid "Margin (Vertical)"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Mastodon"
 msgstr ""
 
 #: src/routes/dashboard/settings/ai.tsx
@@ -2195,6 +2208,14 @@ msgstr ""
 
 #: src/utils/resume/section.tsx
 msgid "Statistics"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Page"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Pages"
 msgstr ""
 
 #: src/components/input/rich-input.tsx

@@ -856,6 +856,7 @@ msgid "Disconnect"
 msgstr "डिसकनेक्ट करें"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/_home/-sections/footer.tsx
 msgid "Discord"
 msgstr "डिस्कॉर्ड"
 
@@ -864,6 +865,10 @@ msgstr "डिस्कॉर्ड"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "आलेख"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Domain Blacklist Check"
+msgstr ""
 
 #: src/routes/auth/login.tsx
 msgid "Don't have an account? <0><1>Create one now <2/></1></0>"
@@ -1138,6 +1143,10 @@ msgstr "जर्मन"
 #: src/routes/_home/-sections/hero.tsx
 msgid "Get Started"
 msgstr "प्रारंभ करें"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "GitHub Sponsors"
+msgstr ""
 
 #: src/components/layout/not-found-screen.tsx
 #: src/routes/auth/verify-2fa-backup.tsx
@@ -1525,6 +1534,10 @@ msgstr "मार्जिन (क्षैतिज)"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
 msgid "Margin (Vertical)"
 msgstr "मार्जिन (ऊर्ध्वाधर)"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Mastodon"
+msgstr ""
 
 #: src/routes/dashboard/settings/ai.tsx
 msgid "Model"
@@ -2201,6 +2214,14 @@ msgstr "शुरुआत से अपना रेज़्यूमे ब�
 #: src/utils/resume/section.tsx
 msgid "Statistics"
 msgstr "आंकड़े"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Page"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Pages"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Strike"

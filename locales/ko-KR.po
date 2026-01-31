@@ -856,6 +856,7 @@ msgid "Disconnect"
 msgstr "연결 해제"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/_home/-sections/footer.tsx
 msgid "Discord"
 msgstr "디스코드"
 
@@ -864,6 +865,10 @@ msgstr "디스코드"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "문서"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Domain Blacklist Check"
+msgstr ""
 
 #: src/routes/auth/login.tsx
 msgid "Don't have an account? <0><1>Create one now <2/></1></0>"
@@ -1138,6 +1143,10 @@ msgstr "독일어"
 #: src/routes/_home/-sections/hero.tsx
 msgid "Get Started"
 msgstr "시작하기"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "GitHub Sponsors"
+msgstr ""
 
 #: src/components/layout/not-found-screen.tsx
 #: src/routes/auth/verify-2fa-backup.tsx
@@ -1525,6 +1534,10 @@ msgstr "여백(가로)"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
 msgid "Margin (Vertical)"
 msgstr "여백(세로)"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Mastodon"
+msgstr ""
 
 #: src/routes/dashboard/settings/ai.tsx
 msgid "Model"
@@ -2201,6 +2214,14 @@ msgstr "처음부터 이력서를 직접 작성하기"
 #: src/utils/resume/section.tsx
 msgid "Statistics"
 msgstr "통계"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Page"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Pages"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Strike"

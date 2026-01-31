@@ -856,6 +856,7 @@ msgid "Disconnect"
 msgstr "Прекъсване на връзката"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/_home/-sections/footer.tsx
 msgid "Discord"
 msgstr "Discord"
 
@@ -864,6 +865,10 @@ msgstr "Discord"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "Документация"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Domain Blacklist Check"
+msgstr ""
 
 #: src/routes/auth/login.tsx
 msgid "Don't have an account? <0><1>Create one now <2/></1></0>"
@@ -1138,6 +1143,10 @@ msgstr "Немски"
 #: src/routes/_home/-sections/hero.tsx
 msgid "Get Started"
 msgstr "Започнете"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "GitHub Sponsors"
+msgstr ""
 
 #: src/components/layout/not-found-screen.tsx
 #: src/routes/auth/verify-2fa-backup.tsx
@@ -1525,6 +1534,10 @@ msgstr "Отстъп (хоризонтален)"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
 msgid "Margin (Vertical)"
 msgstr "Отстъп (вертикален)"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Mastodon"
+msgstr ""
 
 #: src/routes/dashboard/settings/ai.tsx
 msgid "Model"
@@ -2201,6 +2214,14 @@ msgstr "Започнете да изграждате автобиография�
 #: src/utils/resume/section.tsx
 msgid "Statistics"
 msgstr "Статистика"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Page"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Pages"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Strike"

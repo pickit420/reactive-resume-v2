@@ -26,9 +26,14 @@ type SocialLink = {
 
 const getResourceLinks = (): FooterLinkItem[] => [
 	{ url: "https://docs.rxresume.org", label: t`Documentation` },
+	{ url: "https://docs.rxresume.org/changelog", label: t`Changelog` },
 	{ url: "https://github.com/sponsors/lazy-media", label: t`Sponsorships` },
 	{ url: "https://github.com/pickit420/reactive-resume-v2", label: t`Source Code` },
-	{ url: "https://docs.rxresume.org/changelog", label: t`Changelog` },
+];
+
+const getStatusLinks = (): FooterLinkItem[] => [
+	{ url: "https://status.rxresume.org", label: t`Status Page` },
+	{ url: "https://blacklist.rxresume.org", label: t`Domain Blacklist Check` },
 ];
 
 const getCommunityLinks = (): FooterLinkItem[] => [
@@ -39,11 +44,11 @@ const getCommunityLinks = (): FooterLinkItem[] => [
 ];
 
 const socialLinks: SocialLink[] = [
-	{ url: "https://github.com/sponsors/lazy-media", label: "GitHub Sponsors", icon: GithubLogoIcon },
-	{ url: "https://social.lazymedia.media/@LazyMedia", label: "Mastodon", icon: MastodonLogo },
+	{ url: "https://github.com/sponsors/lazy-media", label: t`GitHub Sponsors`, icon: GithubLogoIcon },
+	{ url: "https://social.lazymedia.media/@LazyMedia", label: t`Mastodon`, icon: MastodonLogo },
 	{
 		url: "https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587",
-		label: "Discord",
+		label: t`Discord`,
 		icon: DiscordLogo,
 	},
 ];
@@ -58,7 +63,7 @@ export function Footer() {
 			viewport={{ once: true }}
 			transition={{ duration: 0.6 }}
 		>
-			<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+			<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5">
 				{/* Brand Column */}
 				<div className="space-y-4 sm:col-span-2 lg:col-span-1">
 					<BrandIcon variant="logo" className="size-10" />
@@ -66,10 +71,12 @@ export function Footer() {
 					<div className="space-y-2">
 						<h2 className="font-bold text-lg tracking-tight">Reactive Resume</h2>
 						<p className="max-w-xs text-muted-foreground text-sm leading-relaxed">
-							<Trans>
-								A free and open-source resume builder that simplifies the process of creating, updating, and sharing
-								your resume.
-							</Trans>
+							<span>
+								<Trans>
+									A free and open-source resume builder that simplifies the process of creating, updating, and sharing
+									your resume.
+								</Trans>
+							</span>
 						</p>
 					</div>
 
@@ -92,6 +99,9 @@ export function Footer() {
 
 				{/* Resources Column */}
 				<FooterLinkGroup title={t`Resources`} links={getResourceLinks()} />
+
+				{/* Status Page Column */}
+				<FooterLinkGroup title={t`Status Pages`} links={getStatusLinks()} />
 
 				{/* Community Column */}
 				<FooterLinkGroup title={t`Community`} links={getCommunityLinks()} />

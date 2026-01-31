@@ -18,37 +18,37 @@ const getFaqItems = (): FAQItemData[] => [
 		question: t`Who is Lazy Media & what's your deal with Reactive Resume?`,
 		answer: (
 			<Trans>
-				<p>
+				<div>
 					I'm someone who apparently thought maintaining an open source project would be easier than it looks. Spoiler:
 					I was wrong.
-				</p>{" "}
-				<p>
+				</div>{" "}
+				<div>
 					{" "}
 					By day, I'm a normal person with a full-time job, and by night (and weekends), I'm a GitHub newbie trying to
 					fix things in Reactive Resume without breaking them further.
-				</p>{" "}
-				<p>
+				</div>{" "}
+				<div>
 					After noticing the original repo had gone quiet for about a year while people were still actively reporting
 					issues, I decided to fork it and create a Community Self-Hosted Version. Because nothing says "fun weekend
 					project" like inheriting someone else's codebase when you're not even a proper developer. Little did I know,
 					the original author, Amruth Pillai, was just on a long coffee break and is back into developing again! So
 					please be sure to check out his version and use it instead of this fork if you want.
-				</p>{" "}
-				<p>
+				</div>{" "}
+				<div>
 					{" "}
 					When I'm not accidentally creating new bugs while fixing old ones, you can find me playing PC games -
 					specifically racing, city builders, and factory sims. Because if I can't organize my code properly, at least I
 					can organize a virtual city or an overly complex factory line.
-				</p>{" "}
-				<p>
+				</div>{" "}
+				<div>
 					{" "}
 					My other hobby? Tinkering with random open source projects for my home lab. Because clearly maintaining one
 					project isn't enough chaos in my life. But hey, someone's got to keep the lights on for Reactive Resume's
 					community, even if that someone is learning as they go.
-				</p>{" "}
-				<p>
+				</div>{" "}
+				<div>
 					<strong>Professional disclaimer: No resumes were harmed in the making of this fork. Probably.</strong>
-				</p>
+				</div>
 			</Trans>
 		),
 	},

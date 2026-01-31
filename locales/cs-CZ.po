@@ -856,6 +856,7 @@ msgid "Disconnect"
 msgstr "Odpojit"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/_home/-sections/footer.tsx
 msgid "Discord"
 msgstr "Discord"
 
@@ -864,6 +865,10 @@ msgstr "Discord"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "Dokumentace"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Domain Blacklist Check"
+msgstr ""
 
 #: src/routes/auth/login.tsx
 msgid "Don't have an account? <0><1>Create one now <2/></1></0>"
@@ -1138,6 +1143,10 @@ msgstr "Němčina"
 #: src/routes/_home/-sections/hero.tsx
 msgid "Get Started"
 msgstr "Začít"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "GitHub Sponsors"
+msgstr ""
 
 #: src/components/layout/not-found-screen.tsx
 #: src/routes/auth/verify-2fa-backup.tsx
@@ -1525,6 +1534,10 @@ msgstr "Okraje (vodorovné)"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
 msgid "Margin (Vertical)"
 msgstr "Okraje (svislé)"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Mastodon"
+msgstr ""
 
 #: src/routes/dashboard/settings/ai.tsx
 msgid "Model"
@@ -2201,6 +2214,14 @@ msgstr "Začněte vytvářet životopis od nuly"
 #: src/utils/resume/section.tsx
 msgid "Statistics"
 msgstr "Statistiky"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Page"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Pages"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Strike"

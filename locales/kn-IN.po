@@ -856,6 +856,7 @@ msgid "Disconnect"
 msgstr "ಡಿಸ್ಕನೆಕ್ಟ್ ಮಾಡಿ"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/_home/-sections/footer.tsx
 msgid "Discord"
 msgstr "ಡಿಸ್ಕೋರ್ಡ್"
 
@@ -864,6 +865,10 @@ msgstr "ಡಿಸ್ಕೋರ್ಡ್"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "ದಾಖಲೀಕರಣ"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Domain Blacklist Check"
+msgstr ""
 
 #: src/routes/auth/login.tsx
 msgid "Don't have an account? <0><1>Create one now <2/></1></0>"
@@ -1138,6 +1143,10 @@ msgstr "ಜರ್ಮನ್"
 #: src/routes/_home/-sections/hero.tsx
 msgid "Get Started"
 msgstr "ಪ್ರಾರಂಭಿಸಿ"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "GitHub Sponsors"
+msgstr ""
 
 #: src/components/layout/not-found-screen.tsx
 #: src/routes/auth/verify-2fa-backup.tsx
@@ -1525,6 +1534,10 @@ msgstr "ಮಾರ್ಜಿನ್ (ಅಡ್ಡ)"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
 msgid "Margin (Vertical)"
 msgstr "ಮಾರ್ಜಿನ್ (ಲಂಬ)"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Mastodon"
+msgstr ""
 
 #: src/routes/dashboard/settings/ai.tsx
 msgid "Model"
@@ -2201,6 +2214,14 @@ msgstr "ಮೊದಲಿನಿಂದ ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ ಅ
 #: src/utils/resume/section.tsx
 msgid "Statistics"
 msgstr "ಅಂಕಿಅಂಶಗಳು"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Page"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Pages"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Strike"
