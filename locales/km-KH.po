@@ -309,6 +309,10 @@ msgstr "ស្ថិតិ​កម្មវិធី"
 msgid "Arabic"
 msgstr "Arabic"
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Are you sure you want to close this dialog?"
+msgstr ""
+
 #: src/routes/dashboard/settings/api-keys.tsx
 msgid "Are you sure you want to delete this API key?"
 msgstr "តើ​អ្នក​ប្រាកដ​ជា​ចង់​លុប​កូនសោ API នេះ​ឬ?"
@@ -472,6 +476,8 @@ msgstr "តើ​ខ្ញុំ​អាច​នាំចេញ​ប្រវ
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/hooks/use-prompt.tsx
@@ -578,6 +584,10 @@ msgstr "អះអាង"
 msgid "Connect"
 msgstr "តភ្ជាប់"
 
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr ""
+
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
@@ -632,6 +642,7 @@ msgstr "ចម្លង URL"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create"
 msgstr "បង្កើត"
@@ -699,6 +710,10 @@ msgstr "បង្កើត​ប្រវត្តិរូប​ថ្មី"
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Create a new skill"
 msgstr "បង្កើត​ជំនាញ​ថ្មី"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create a new volunteer experience"
@@ -1422,6 +1437,10 @@ msgstr "ស្វែងយល់បន្ថែម"
 msgid "Learn more about how to fit content on a page"
 msgstr "ស្វែងយល់បន្ថែមអំពីរបៀបសម្របខ្លឹមសារឲ្យសមនឹងទំព័រ"
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Leave"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
 msgid "Leave empty to reset the title to the original."
 msgstr "ទុក​វែងៗ ដើម្បី​កំណត់​ចំណងជើង​ឲ្យ​ត្រឡប់​ទៅ​ដើម​វិញ។"
@@ -1977,6 +1996,7 @@ msgstr "Russian"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/routes/dashboard/settings/profile.tsx
 msgid "Save Changes"
@@ -2221,6 +2241,10 @@ msgstr ""
 
 #: src/routes/_home/-sections/footer.tsx
 msgid "Status Pages"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Stay"
 msgstr ""
 
 #: src/components/input/rich-input.tsx
@@ -2585,6 +2609,10 @@ msgstr "បច្ចុប្បន្នភាព​យោង​មាន​ស
 msgid "Update an existing skill"
 msgstr "បច្ចុប្បន្នភាព​ជំនាញ​មាន​ស្រាប់"
 
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr ""
+
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Update an existing volunteer experience"
 msgstr "បច្ចុប្បន្នភាព​បទពិសោធន៍​ស្ម័គ្រចិត្ត​មាន​ស្រាប់"
@@ -2749,6 +2777,10 @@ msgstr "អ្នក​អាច​ចែករំលែក​ប្រវត្
 #: src/routes/dashboard/settings/authentication/-components/passkeys.tsx
 msgid "You cannot use the passkey \"{0}\" anymore to sign in after deletion. This action cannot be undone."
 msgstr "បន្ទាប់​ពី​លុប អ្នក​នឹង​មិន​អាច​ប្រើ​កូនសោ​កំណត់​អត្តសញ្ញាណ \"{0}\" នេះ ដើម្បី​ចូល​បាន​ទៀត​ទេ។ សកម្មភាព​នេះ​មិន​អាច​មិនធ្វើវិញ​បានទេ។"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "You have unsaved changes that will be lost."
+msgstr ""
 
 #: src/routes/auth/forgot-password.tsx
 #: src/routes/auth/register.tsx

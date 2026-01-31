@@ -309,6 +309,10 @@ msgstr "Estadístiques de l’aplicació"
 msgid "Arabic"
 msgstr "Àrab"
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Are you sure you want to close this dialog?"
+msgstr ""
+
 #: src/routes/dashboard/settings/api-keys.tsx
 msgid "Are you sure you want to delete this API key?"
 msgstr "Segur que vols suprimir aquesta clau API?"
@@ -472,6 +476,8 @@ msgstr "Puc exportar el meu currículum a PDF?"
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/hooks/use-prompt.tsx
@@ -578,6 +584,10 @@ msgstr "Confirma"
 msgid "Connect"
 msgstr "Connecta"
 
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr ""
+
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
@@ -632,6 +642,7 @@ msgstr "Copia l’URL"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create"
 msgstr "Crear"
@@ -699,6 +710,10 @@ msgstr "Crea un currículum nou"
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Create a new skill"
 msgstr "Crea una habilitat nova"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create a new volunteer experience"
@@ -1422,6 +1437,10 @@ msgstr "Més informació"
 msgid "Learn more about how to fit content on a page"
 msgstr "Aprèn més sobre com ajustar el contingut en una pàgina"
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Leave"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
 msgid "Leave empty to reset the title to the original."
 msgstr "Deixa-ho buit per restablir el títol original."
@@ -1977,6 +1996,7 @@ msgstr "Rus"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/routes/dashboard/settings/profile.tsx
 msgid "Save Changes"
@@ -2221,6 +2241,10 @@ msgstr ""
 
 #: src/routes/_home/-sections/footer.tsx
 msgid "Status Pages"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Stay"
 msgstr ""
 
 #: src/components/input/rich-input.tsx
@@ -2585,6 +2609,10 @@ msgstr "Actualitza una referència existent"
 msgid "Update an existing skill"
 msgstr "Actualitza una habilitat existent"
 
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr ""
+
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Update an existing volunteer experience"
 msgstr "Actualitza una experiència de voluntariat existent"
@@ -2749,6 +2777,10 @@ msgstr "Pots compartir el currículum mitjançant un URL públic únic, protegir
 #: src/routes/dashboard/settings/authentication/-components/passkeys.tsx
 msgid "You cannot use the passkey \"{0}\" anymore to sign in after deletion. This action cannot be undone."
 msgstr "Després de la supressió ja no podràs utilitzar la clau d’accés \"{0}\" per iniciar sessió. Aquesta acció no es pot desfer."
+
+#: src/hooks/use-form-blocker.tsx
+msgid "You have unsaved changes that will be lost."
+msgstr ""
 
 #: src/routes/auth/forgot-password.tsx
 #: src/routes/auth/register.tsx

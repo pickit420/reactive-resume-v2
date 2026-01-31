@@ -309,6 +309,10 @@ msgstr "ऐप आँकड़े"
 msgid "Arabic"
 msgstr "अरबी"
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Are you sure you want to close this dialog?"
+msgstr ""
+
 #: src/routes/dashboard/settings/api-keys.tsx
 msgid "Are you sure you want to delete this API key?"
 msgstr "क्या आप वाकई इस API कुंजी को हटाना चाहते हैं?"
@@ -472,6 +476,8 @@ msgstr "क्या मैं अपना रेज़्यूमे PDF म�
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/hooks/use-prompt.tsx
@@ -578,6 +584,10 @@ msgstr "पुष्टि करें"
 msgid "Connect"
 msgstr "कनेक्ट करें"
 
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr ""
+
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
@@ -632,6 +642,7 @@ msgstr "URL कॉपी करें"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create"
 msgstr "बनाएँ"
@@ -699,6 +710,10 @@ msgstr "नया रेज़्यूमे बनाएँ"
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Create a new skill"
 msgstr "नई कौशल बनाएँ"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create a new volunteer experience"
@@ -1422,6 +1437,10 @@ msgstr "अधिक जानें"
 msgid "Learn more about how to fit content on a page"
 msgstr "पृष्ठ पर सामग्री फिट करने के बारे में अधिक जानें"
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Leave"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
 msgid "Leave empty to reset the title to the original."
 msgstr "शीर्षक को मूल पर रीसेट करने के लिए खाली छोड़ दें।"
@@ -1977,6 +1996,7 @@ msgstr "रूसी"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/routes/dashboard/settings/profile.tsx
 msgid "Save Changes"
@@ -2221,6 +2241,10 @@ msgstr ""
 
 #: src/routes/_home/-sections/footer.tsx
 msgid "Status Pages"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Stay"
 msgstr ""
 
 #: src/components/input/rich-input.tsx
@@ -2585,6 +2609,10 @@ msgstr "मौजूदा रेफ़रेंस अपडेट करें
 msgid "Update an existing skill"
 msgstr "मौजूदा कौशल अपडेट करें"
 
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr ""
+
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Update an existing volunteer experience"
 msgstr "मौजूदा स्वयंसेवी अनुभव अपडेट करें"
@@ -2749,6 +2777,10 @@ msgstr "आप अपना रेज़्यूमे एक यूनिक �
 #: src/routes/dashboard/settings/authentication/-components/passkeys.tsx
 msgid "You cannot use the passkey \"{0}\" anymore to sign in after deletion. This action cannot be undone."
 msgstr "हटाने के बाद आप साइन इन करने के लिए पासकी \"{0}\" का उपयोग नहीं कर पाएंगे। इस कार्रवाई को पूर्ववत नहीं किया जा सकता।"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "You have unsaved changes that will be lost."
+msgstr ""
 
 #: src/routes/auth/forgot-password.tsx
 #: src/routes/auth/register.tsx
