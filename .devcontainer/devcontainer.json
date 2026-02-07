@@ -1,22 +1,32 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
-	"name": "Default Linux Universal",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/universal:2-linux"
+	"name": "Reactive Resume",
+	"service": "reactive_resume",
+	"dockerComposeFile": "docker-compose.yml",
+	"workspaceFolder": "/workspace",
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"forwardPorts": [3000, 4000, 5432, 8333],
+	"portsAttributes": {
+		"3000": { "label": "Reactive Resume", "onAutoForward": "openBrowser" },
+		"4000": { "label": "Browserless (Printer)" },
+		"5432": { "label": "PostgreSQL" },
+		"8333": { "label": "SeaweedFS (S3)" }
+	},
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"customizations": {
+		"vscode": {
+			"extensions": ["biomejs.biome", "bradlc.vscode-tailwindcss", "lokalise.i18n-ally"],
+			"settings": {
+				"biome.enabled": true,
+				"editor.codeActionsOnSave": {
+					"source.biome": "explicit",
+					"source.fixAll.biome": "explicit",
+					"source.organizeImports.biome": "explicit"
+				},
+				"editor.defaultFormatter": "biomejs.biome",
+				"typescript.tsdk": "node_modules/typescript/lib"
+			}
+		}
+	},
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"postCreateCommand": "corepack enable && pnpm install"
 }

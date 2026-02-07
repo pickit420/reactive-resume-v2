@@ -1,15 +1,3 @@
-<div align="center" markdown="1">
-  <a href="https://go.warp.dev/Reactive-Resume">
-    <img alt="Warp Sponsorship" width="400" src="https://github.com/warpdotdev/brand-assets/blob/main/Github/Sponsor/Warp-Github-LG-03.png?raw=true" />
-  </a>
-
-  ### [Warp, built for coding with multiple AI agents.](https://go.warp.dev/Reactive-Resume)
-
-  [Available for MacOS, Linux, & Windows](https://go.warp.dev/Reactive-Resume)
-</div>
-
----
-
 <div align="center">
   <a href="https://rxresume.org">
     <img src="public/opengraph/banner.jpg" alt="Reactive Resume" />
@@ -33,8 +21,6 @@
     <a href="https://crowdin.com/project/lazymedia-reactive-resume"><img src="https://badges.crowdin.net/reactive-resume/localized.svg?style=flat-square" alt="Crowdin" /></a>
     <a href="https://github.com/sponsors/lazy-media"><img src="https://img.shields.io/github/sponsors/lazy-media?style=flat-square" alt="GitHub Sponsors" /></a>
   </p>
-
-  <a href="https://www.producthunt.com/products/reactive-resume?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-reactive-resume-v5-2" target="_blank" rel="noopener"><img alt="Reactive Resume v5 - A free and open-source resume builder. | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1065182&amp;theme=light&amp;t=1768850745585"></a>
 </div>
 
 ---
@@ -156,6 +142,8 @@ docker compose up -d
 # Access the app
 open http://localhost:3000
 ```
+
+[![Build with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/pickit420/reactive-resume-v2)
 
 For detailed setup instructions, environment configuration, and self-hosting guides, see the [documentation](https://docs.rxresume.org).
 

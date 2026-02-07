@@ -8,7 +8,7 @@ msgstr ""
 "Language: or\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-01-29 13:13\n"
+"PO-Revision-Date: 2026-01-31 12:14\n"
 "Last-Translator: \n"
 "Language-Team: Odia\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -305,6 +305,10 @@ msgstr "ଆପ୍ଲିକେସନ୍ ସଂଖ୍ୟାତ୍ମକ ତଥ୍�
 msgid "Arabic"
 msgstr "ଆରବୀ"
 
+#: src/hooks/use-form-blocker.tsx
+msgid "Are you sure you want to close this dialog?"
+msgstr ""
+
 #: src/routes/dashboard/settings/api-keys.tsx
 msgid "Are you sure you want to delete this API key?"
 msgstr "ଆପଣ ନିଶ୍ଚିତ କି ଏହି API କିକୁ ବିଲୋପ କରିବାକୁ ଚାହାଁନ୍ତି?"
@@ -448,6 +452,8 @@ msgstr "ମୁଁ ମୋର ରେଜ୍ୟୁମେକୁ PDF କୁ ନିର�
 #: src/dialogs/resume/sections/award.tsx
 #: src/dialogs/resume/sections/certification.tsx
 #: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
 #: src/dialogs/resume/sections/custom.tsx
 #: src/dialogs/resume/sections/custom.tsx
 #: src/dialogs/resume/sections/education.tsx
@@ -468,6 +474,8 @@ msgstr "ମୁଁ ମୋର ରେଜ୍ୟୁମେକୁ PDF କୁ ନିର�
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/hooks/use-prompt.tsx
@@ -574,6 +582,11 @@ msgstr "ନିଶ୍ଚିତ କରନ୍ତୁ"
 msgid "Connect"
 msgstr "ଯୋଡନ୍ତୁ"
 
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr ""
+
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
@@ -614,10 +627,15 @@ msgstr "ଏହି ଗୁପ୍ତ କିକୁ କପି କରନ୍ତୁ ଏ�
 msgid "Copy URL"
 msgstr "URL କପି କରନ୍ତୁ"
 
+#: src/utils/resume/section.tsx
+msgid "Cover Letter"
+msgstr ""
+
 #: src/dialogs/api-key/create.tsx
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/sections/award.tsx
 #: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
 #: src/dialogs/resume/sections/custom.tsx
 #: src/dialogs/resume/sections/education.tsx
 #: src/dialogs/resume/sections/experience.tsx
@@ -628,6 +646,7 @@ msgstr "URL କପି କରନ୍ତୁ"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create"
 msgstr "ତିଆରି କରନ୍ତୁ"
@@ -648,6 +667,10 @@ msgstr "ଗୋଟିଏ ନୂତନ ପୁରସ୍କାର ତିଆରି �
 #: src/dialogs/resume/sections/certification.tsx
 msgid "Create a new certification"
 msgstr "ଗୋଟିଏ ନୂତନ ପ୍ରମାଣପତ୍ର ତିଆରି କରନ୍ତୁ"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Create a new cover letter"
+msgstr ""
 
 #: src/dialogs/resume/sections/custom.tsx
 msgid "Create a new custom section"
@@ -695,6 +718,10 @@ msgstr "ଗୋଟିଏ ନୂତନ ରେଜ୍ୟୁମେ ତିଆରି �
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Create a new skill"
 msgstr "ଗୋଟିଏ ନୂତନ କୌଶଳ ତିଆରି କରନ୍ତୁ"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create a new volunteer experience"
@@ -1015,6 +1042,10 @@ msgstr "ଏଠାରେ ଦିଆଯାଇଥିବା ସମସ୍ତ କିଛ
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
 msgstr "ପେଶାଦାର ରେଜ୍ୟୁମେ ତିଆରି, କଷ୍ଟମାଇଜ୍ ଏବଂ ସେୟାର କରିବାକୁ ଆପଣଙ୍କୁ ଯାହା କିଛି ଆବଶ୍ୟକ ସମସ୍ତ ଏଥିରେ ଅଛି। ଗୋପନୀୟତା ଧ୍ୟାନରେ ରଖି ନିର୍ମିତ, ଖୋଲା‑ମୂଳ ଦ୍ୱାରା ଶକ୍ତିଶାଳୀ ହୋଇଛି, ଏବଂ ସଂପୂର୍ଣ୍ଣ ଭାବରେ ସଦା ପାଇଁ ନିଶୁଳ୍କ।"
 
+#: src/components/input/rich-input.tsx
+msgid "Exit Fullscreen"
+msgstr ""
+
 #: src/utils/resume/section.tsx
 msgid "Experience"
 msgstr "ଅନୁଭବ"
@@ -1122,6 +1153,10 @@ msgstr "ଫ୍ରେଞ୍ଚ୍"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Full Width"
 msgstr "ପୁରା ପ୍ରସ୍ଥ"
+
+#: src/components/input/rich-input.tsx
+msgid "Fullscreen"
+msgstr ""
 
 #: src/dialogs/resume/index.tsx
 msgid "Generate a random name"
@@ -1400,6 +1435,10 @@ msgstr "ଅଧିକ ଜାଣନ୍ତୁ"
 #: src/components/resume/preview.tsx
 msgid "Learn more about how to fit content on a page"
 msgstr "ଏହି ପୃଷ୍ଠାରେ ବିଷୟବସ୍ତୁ କିପରି ଫିଟ୍ କରିବେ ବିଷୟରେ ଅଧିକ ସିଖନ୍ତୁ"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Leave"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
 msgid "Leave empty to reset the title to the original."
@@ -1832,6 +1871,10 @@ msgstr "Reactive Resume ଆଜି Product Hunt ରେ ଲଞ୍ଚ ହେଉଛ�
 msgid "Reactive Resume is open-source, privacy-focused, and completely free. Unlike other resume builders, it doesn't show ads, track your data, or limit your features behind a paywall."
 msgstr "Reactive Resume ଖୋଲା‑ମୂଳ, ଗୋପନୀୟତା‑କେନ୍ଦ୍ରିତ ଏବଂ ସଂପୂର୍ଣ୍ଣ ଭାବରେ ନିଶୁଳ୍କ। ଅନ୍ୟ ରେଜ୍ୟୁମେ ବିଲ୍ଡରଗୁଡିକ ଭଳି ଏହା ବିଜ୍ଞାପନ ଦେଖାଏ ନାହିଁ, ଆପଣଙ୍କ ତଥ୍ୟକୁ ଟ୍ରାକ୍ କରେ ନାହିଁ, କିମ୍ବା ପେୱାଲ୍ ପଛରେ ବିଶେଷତାଗୁଡିକୁ ଆଟକାଇ ରଖେ ନାହିଁ।"
 
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Recipient"
+msgstr ""
+
 #: src/components/level/combobox.tsx
 msgid "Rectangle"
 msgstr "ଆୟାତାକାର"
@@ -1940,6 +1983,7 @@ msgstr "ରୁଷିଆନ୍"
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/sections/award.tsx
 #: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
 #: src/dialogs/resume/sections/custom.tsx
 #: src/dialogs/resume/sections/education.tsx
 #: src/dialogs/resume/sections/experience.tsx
@@ -1950,6 +1994,7 @@ msgstr "ରୁଷିଆନ୍"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/routes/dashboard/settings/profile.tsx
 msgid "Save Changes"
@@ -2049,9 +2094,21 @@ msgstr "ସେୟାର କରିବା"
 msgid "Show"
 msgstr "ଦେଖାନ୍ତୁ"
 
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Show link in title"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Sidebar"
-msgstr "ସାଇଡବାର୍<<<<<<< HEAD"
+msgstr "ସାଇଡବାର୍"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/index.tsx
 msgid "Sidebar Width"
@@ -2187,6 +2244,10 @@ msgstr "ଶୂନ୍ୟରୁ ଆପଣଙ୍କ ରେଜ୍ୟୁମେ ତି
 #: src/utils/resume/section.tsx
 msgid "Statistics"
 msgstr "ସଂଖ୍ୟାତ୍ମକ ତଥ୍ୟ"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Stay"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Strike"
@@ -2510,6 +2571,10 @@ msgstr "ଏକ ଅବସ୍ଥିତ ପୁରସ୍କାରକୁ ଅଦ୍ୟ
 msgid "Update an existing certification"
 msgstr "ଏକ ଅବସ୍ଥିତ ପ୍ରମାଣପତ୍ରକୁ ଅଦ୍ୟତନ କରନ୍ତୁ"
 
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Update an existing cover letter"
+msgstr ""
+
 #: src/dialogs/resume/sections/custom.tsx
 msgid "Update an existing custom section"
 msgstr "ଏକ ଅବସ୍ଥିତ କଷ୍ଟମ୍ ବିଭାଗକୁ ଅଦ୍ୟତନ କରନ୍ତୁ"
@@ -2549,6 +2614,10 @@ msgstr "ଏକ ଅବସ୍ଥିତ ସନ୍ଦର୍ଭକୁ ଅଦ୍ୟତ
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Update an existing skill"
 msgstr "ଏକ ଅବସ୍ଥିତ କୌଶଳକୁ ଅଦ୍ୟତନ କରନ୍ତୁ"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Update an existing volunteer experience"
@@ -2710,6 +2779,10 @@ msgstr "ଆପଣ ଏକ ଅଦ୍ୱିତୀୟ ସାର୍ବଜନିକ UR
 #: src/routes/dashboard/settings/authentication/-components/passkeys.tsx
 msgid "You cannot use the passkey \"{0}\" anymore to sign in after deletion. This action cannot be undone."
 msgstr "ବିଲୋପ କରିବା ପରେ ଆପଣ ପୁଣିଥରେ \"{0}\" ପାସକି ବ୍ୟବହାର କରି ସାଇନ୍ ଇନ୍ କରିପାରିବେ ନାହିଁ। ଏହି କାର୍ଯ୍ୟ ପୁନଃ କରିହୋଇପାରିବ ନାହିଁ।"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "You have unsaved changes that will be lost."
+msgstr ""
 
 #: src/routes/auth/forgot-password.tsx
 #: src/routes/auth/register.tsx
