@@ -33,7 +33,7 @@ services:
       retries: 10
 
   # As an alternative to browserless, you can also use a lightweight image like chromedp/headless-shell:latest
-  # See https://docs.rxresu.me/self-hosting/docker#alternative-printer-options for more information.
+  # See https://docs.rxresume.org/self-hosting/docker#alternative-printer-options for more information.
   # chrome:
   #   image: chromedp/headless-shell:latest
   #   restart: unless-stopped
@@ -70,9 +70,9 @@ services:
       seaweedfs:
         condition: service_healthy
 
-  reactive_resume:
-    image: amruthpillai/reactive-resume:latest
-    # image: ghcr.io/amruthpillai/reactive-resume:latest
+  app:
+    image: pickit420/reactive-resume-v:latest
+    # image: ghcr.io/pickit420/reactive-resume-v2:latest
     environment:
       # Server
       - TZ=Etc/UTC

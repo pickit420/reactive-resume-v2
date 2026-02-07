@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://rxresu.me">
+  <a href="https://rxresume.org">
     <img src="public/opengraph/banner.jpg" alt="Reactive Resume" />
   </a>
 
@@ -8,20 +8,18 @@
   <p>Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.</p>
 
   <p>
-    <a href="https://rxresu.me"><strong>Get Started</strong></a>
+    <a href="https://rxresume.org"><strong>Get Started</strong></a>
     ·
-    <a href="https://docs.rxresu.me"><strong>Learn More</strong></a>
+    <a href="https://docs.rxresume.org"><strong>Learn More</strong></a>
   </p>
 
   <p>
-    <img src="https://img.shields.io/github/package-json/v/amruthpillai/reactive-resume?style=flat-square" alt="Reactive Resume version">
-    <img src="https://img.shields.io/github/stars/amruthpillai/Reactive-Resume?style=flat-square" alt="GitHub Stars">
-    <img src="https://img.shields.io/github/license/amruthpillai/Reactive-Resume?style=flat-square" alt="License" />
-    <img src="https://img.shields.io/docker/pulls/amruthpillai/reactive-resume?style=flat-square" alt="Docker Pulls" />
-    <a href="https://discord.gg/EE8yFqW4"><img src="https://img.shields.io/discord/1173518977851473940?style=flat-square&label=discord" alt="Discord" /></a>
-    <a href="https://crowdin.com/project/reactive-resume"><img src="https://badges.crowdin.net/reactive-resume/localized.svg?style=flat-square" alt="Crowdin" /></a>
-    <a href="https://github.com/sponsors/AmruthPillai"><img src="https://img.shields.io/github/sponsors/AmruthPillai?style=flat-square&label=sponsors" alt="Sponsors" /></a>
-    <a href="https://opencollective.com/reactive-resume"><img src="https://img.shields.io/opencollective/backers/reactive-resume?style=flat-square&label=donations" alt="Donations" /></a>
+    <img src="https://img.shields.io/github/stars/pickit420/reactive-resume-v2?style=flat-square" alt="Stars" />
+    <img src="https://img.shields.io/github/license/pickit420/reactive-resume-v2?style=flat-square" alt="License" />
+    <img src="https://img.shields.io/docker/pulls/pickit420/reactive-resume-v2?style=flat-square" alt="Docker Pulls" />
+    <a href="https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587"><img src="https://img.shields.io/discord/1392393638247530587?label=Discord&style=flat-square&logo=discord" alt="Discord" /></a>
+    <a href="https://crowdin.com/project/lazymedia-reactive-resume"><img src="https://badges.crowdin.net/reactive-resume/localized.svg?style=flat-square" alt="Crowdin" /></a>
+    <a href="https://github.com/sponsors/lazy-media"><img src="https://img.shields.io/github/sponsors/lazy-media?style=flat-square" alt="GitHub Sponsors" /></a>
   </p>
 </div>
 
@@ -135,7 +133,7 @@ The quickest way to run Reactive Resume locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/amruthpillai/reactive-resume.git
+git clone https://github.com/pickit420/reactive-resume-v2.git
 cd reactive-resume
 
 # Start all services
@@ -145,9 +143,9 @@ docker compose up -d
 open http://localhost:3000
 ```
 
-[![Build with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/amruthpillai/reactive-resume)
+[![Build with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/pickit420/reactive-resume-v2)
 
-For detailed setup instructions, environment configuration, and self-hosting guides, see the [documentation](https://docs.rxresu.me).
+For detailed setup instructions, environment configuration, and self-hosting guides, see the [documentation](https://docs.rxresume.org).
 
 ## Tech Stack
 
@@ -165,15 +163,15 @@ For detailed setup instructions, environment configuration, and self-hosting gui
 
 ## Documentation
 
-Comprehensive guides are available at [docs.rxresu.me](https://docs.rxresu.me):
+Comprehensive guides are available at [docs.rxresume.org](https://docs.rxresume.org):
 
 | Guide                                                                       | Description                       |
 | --------------------------------------------------------------------------- | --------------------------------- |
-| [Getting Started](https://docs.rxresu.me/getting-started)                   | First-time setup and basic usage  |
-| [Self-Hosting](https://docs.rxresu.me/self-hosting/docker)                  | Deploy on your own server         |
-| [Development Setup](https://docs.rxresu.me/contributing/development)        | Local development environment     |
-| [Project Architecture](https://docs.rxresu.me/contributing/architecture)    | Codebase structure and patterns   |
-| [Exporting Your Resume](https://docs.rxresu.me/guides/exporting-your-resume)| PDF and JSON export options       |
+| [Getting Started](https://docs.rxresume.org/getting-started)                   | First-time setup and basic usage  |
+| [Self-Hosting](https://docs.rxresume.org/self-hosting/docker)                  | Deploy on your own server         |
+| [Development Setup](https://docs.rxresume.org/contributing/development)        | Local development environment     |
+| [Project Architecture](https://docs.rxresume.org/contributing/architecture)    | Codebase structure and patterns   |
+| [Exporting Your Resume](https://docs.rxresume.org/guides/exporting-your-resume)| PDF and JSON export options       |
 
 ## Self-Hosting
 
@@ -187,24 +185,24 @@ Pull the latest image from Docker Hub or GitHub Container Registry:
 
 ```bash
 # Docker Hub
-docker pull amruthpillai/reactive-resume:latest
+docker pull pickit420/reactive-resume-v2:latest
 
 # GitHub Container Registry
-docker pull ghcr.io/amruthpillai/reactive-resume:latest
+docker pull ghcr.io/pickit420/reactive-resume-v2:latest
 ```
 
-See the [self-hosting guide](https://docs.rxresu.me/guides/self-hosting-with-docker) for complete instructions.
+See the [self-hosting guide](https://docs.rxresume.org/guides/self-hosting-with-docker) for complete instructions.
 
 ## Support
 
 Reactive Resume is and always will be free and open-source. If it has helped you land a job or saved you time, please consider supporting continued development:
 
 <p>
-  <a href="https://github.com/sponsors/AmruthPillai">
+  <a href="https://github.com/sponsors/lazy-media">
     <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support-ea4aaa?style=flat-square&logo=github-sponsors" alt="GitHub Sponsors" />
   </a>
-  <a href="https://opencollective.com/reactive-resume">
-    <img src="https://img.shields.io/badge/Open%20Collective-Contribute-7FADF2?style=flat-square&logo=open-collective" alt="Open Collective" />
+  <a href="https://buymeacoffee.com/lazymedia">
+    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" />
   </a>
 </p>
 
@@ -217,11 +215,11 @@ Other ways to support:
 
 ## Star History
 
-<a href="https://www.star-history.com/#amruthpillai/reactive-resume&type=date&legend=top-left">
+<a href="https://www.star-history.com/#pickit420/reactive-resume-v2&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amruthpillai/reactive-resume&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amruthpillai/reactive-resume&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=amruthpillai/reactive-resume&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=pickit420/reactive-resume-v2&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=pickit420/reactive-resume-v2&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=pickit420/reactive-resume-v2&type=date&legend=top-left" />
  </picture>
 </a>
 
@@ -235,7 +233,7 @@ Contributions make open-source thrive. Whether fixing a typo or adding a feature
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-See the [development setup guide](https://docs.rxresu.me/contributing/development) for detailed instructions on how to set up the project locally.
+See the [development setup guide](https://docs.rxresume.org/contributing/development) for detailed instructions on how to set up the project locally.
 
 ## License
 

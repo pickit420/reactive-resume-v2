@@ -57,8 +57,12 @@ msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>Συχνές</0><1>Ερωτήσεις</1><2>Χρηστών</2>"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>Σας ευχαριστώ που χρησιμοποιείτε το Reactive Resume! Αυτή η εφαρμογή είναι έργο αγάπης, δημιουργημένη κυρίως στον ελεύθερο χρόνο μου, με υπέροχη υποστήριξη από συνεισφέροντες ανοικτού κώδικα σε όλο τον κόσμο.</0><1>Εάν το Reactive Resume σας βοήθησε και θα θέλατε να συμβάλετε ώστε να παραμείνει δωρεάν και ανοικτό για όλους, σκεφτείτε να κάνετε μια δωρεά. Κάθε μικρή συμβολή εκτιμάται!</1>"
+msgid "<0>Note:</0> Reactive Resume was originally created and maintained by Amruth Pillai. If you would like to support the original maintainer, please consider donating using the links below."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in Amruth Pillai's spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
@@ -104,6 +108,10 @@ msgstr "Ένας νέος σύνδεσμος επαλήθευσης στάλθη
 #: src/components/ui/copyright.tsx
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "Ένα έργο πάθους από τον <0>Amruth Pillai</0>."
+
+#: src/components/ui/copyright.tsx
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
+msgstr ""
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx
@@ -876,6 +884,7 @@ msgstr "Discord"
 
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "Τεκμηρίωση"
 
@@ -1641,6 +1650,9 @@ msgstr "Ανοικτού κώδικα"
 
 #: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
@@ -1904,6 +1916,7 @@ msgstr "Κατάργηση προστασίας με κωδικό πρόσβασ
 msgid "Rename"
 msgstr "Μετονομασία"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
 msgstr "Αναφορά σφάλματος"
@@ -2180,6 +2193,7 @@ msgstr "Ταξινόμηση κατά"
 
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Source Code"
 msgstr "Πηγαίος κώδικας"
 
@@ -2195,6 +2209,7 @@ msgstr "Κενό (κάθετο)"
 msgid "Spanish"
 msgstr "Ισπανικά"
 
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Sponsors"
 msgstr "Χορηγοί"
@@ -2429,6 +2444,7 @@ msgid "Track your resume's views and downloads"
 msgstr "Παρακολουθήστε τις προβολές και τις λήψεις του βιογραφικού σας σημειώματος"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
 msgstr "Μεταφράσεις"

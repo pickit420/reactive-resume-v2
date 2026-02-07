@@ -3,8 +3,8 @@ name: 🐞 Bug Report
 description: Create a bug report to help improve Reactive Resume
 
 title: "[Bug] <title>"
-labels: [bug, v5, needs triage]
-assignees: "AmruthPillai"
+labels: [bug, v2, needs triage]
+assignees: "lazy-media"
 
 body:
   - type: checkboxes
@@ -21,7 +21,7 @@ body:
       label: Product Variant
       description: What variant of Reactive Resume are you using?
       options:
-        - Cloud (https://rxresu.me)
+        - Cloud (https://rxresume.org)
         - Self-Hosted
     validations:
       required: true
