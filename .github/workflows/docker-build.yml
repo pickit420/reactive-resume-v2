@@ -214,7 +214,7 @@ jobs:
           username: Reactive Resume Release Bot
           webhook: ${{ secrets.DISCORD_ADMIN_WEBHOOK }}
           status: ${{ job.status }}
-          title: "Release `${{ steps.meta.outputs.version }}`"
+          title: "Release `v${{ steps.version.outputs.version }}`"
           description: "A new version of Reactive Resume just dropped! 🚀"
           url: "https://github.com/lazy-media/Reactive-Resume"
 
@@ -225,7 +225,7 @@ jobs:
           username: Reactive Resume Release Bot
           webhook: ${{ secrets.DISCORD_PUBLIC_WEBHOOK }}
           status: ${{ job.status }}
-          title: "Release `${{ steps.meta.outputs.version }}`"
+          title: "Release `v${{ steps.version.outputs.version }}`"
           description: "A new version of Reactive Resume just dropped! 🚀"
           url: "https://github.com/lazy-media/Reactive-Resume"
 
@@ -236,7 +236,7 @@ jobs:
           username: Reactive Resume Release Bot
           webhook: ${{ secrets.DISCORD_GAMING_WEBHOOK }}
           status: ${{ job.status }}
-          title: "Release `${{ steps.meta.outputs.version }}`"
+          title: "Release `v${{ steps.version.outputs.version }}`"
           description: "A new version of Reactive Resume just dropped! 🚀"
           url: "https://github.com/lazy-media/Reactive-Resume"
 
@@ -247,6 +247,7 @@ jobs:
           username: Reactive Resume Release Bot
           webhook: ${{ secrets.DISCORD_REACTIVE_RESUME_WEBHOOK }}
           status: ${{ job.status }}
-          title: "Release `${{ steps.meta.outputs.version }}`"
+          title: "Release `v${{ steps.version.outputs.version }}`"
           description: "A new version of Reactive Resume just dropped! 🚀"
           url: "https://github.com/lazy-media/Reactive-Resume"
+          
