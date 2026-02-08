@@ -1,26 +1,24 @@
 import { zodResolver } from "@hookform/resolvers/zod";
-import { t } from "@lingui/core/macro";
 import { Trans } from "@lingui/react/macro";
 import { PencilSimpleLineIcon, PlusIcon } from "@phosphor-icons/react";
 import { useForm, useFormContext } from "react-hook-form";
 import type z from "zod";
+import { RichInput } from "@/components/input/rich-input";
 import { useResumeStore } from "@/components/resume/store/resume";
 import { Button } from "@/components/ui/button";
 import { DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Slider } from "@/components/ui/slider";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import type { DialogProps } from "@/dialogs/store";
 import { useDialogStore } from "@/dialogs/store";
 import { useFormBlocker } from "@/hooks/use-form-blocker";
-import { languageItemSchema } from "@/schema/resume/data";
+import { coverLetterItemSchema } from "@/schema/resume/data";
 import { generateId } from "@/utils/string";
 
-const formSchema = languageItemSchema;
+const formSchema = coverLetterItemSchema;
 
 type FormValues = z.infer<typeof formSchema>;
 
-export function CreateLanguageDialog({ data }: DialogProps<"resume.sections.languages.create">) {
+export function CreateCoverLetterDialog({ data }: DialogProps<"resume.sections.cover-letter.create">) {
 	const closeDialog = useDialogStore((state) => state.closeDialog);
 	const updateResumeData = useResumeStore((state) => state.updateResumeData);
 
@@ -29,9 +27,8 @@ export function CreateLanguageDialog({ data }: DialogProps<"resume.sections.lang
 		defaultValues: {
 			id: generateId(),
 			hidden: data?.item?.hidden ?? false,
-			language: data?.item?.language ?? "",
-			fluency: data?.item?.fluency ?? "",
-			level: data?.item?.level ?? 0,
+			recipient: data?.item?.recipient ?? "",
+			content: data?.item?.content ?? "",
 		},
 	});
 
@@ -40,8 +37,6 @@ export function CreateLanguageDialog({ data }: DialogProps<"resume.sections.lang
 			if (data?.customSectionId) {
 				const section = draft.customSections.find((s) => s.id === data.customSectionId);
 				if (section) section.items.push(formData);
-			} else {
-				draft.sections.languages.items.push(formData);
 			}
 		});
 		closeDialog();
@@ -54,16 +49,16 @@ export function CreateLanguageDialog({ data }: DialogProps<"resume.sections.lang
 			<DialogHeader>
 				<DialogTitle className="flex items-center gap-x-2">
 					<PlusIcon />
-					<Trans>Create a new language</Trans>
+					<Trans>Create a new cover letter</Trans>
 				</DialogTitle>
 				<DialogDescription />
 			</DialogHeader>
 
 			<Form {...form}>
-				<form className="grid gap-4 sm:grid-cols-2" onSubmit={form.handleSubmit(onSubmit)}>
-					<LanguageForm />
+				<form className="grid gap-4" onSubmit={form.handleSubmit(onSubmit)}>
+					<CoverLetterForm />
 
-					<DialogFooter className="sm:col-span-full">
+					<DialogFooter>
 						<Button variant="ghost" onClick={requestClose}>
 							<Trans>Cancel</Trans>
 						</Button>
@@ -78,7 +73,7 @@ export function CreateLanguageDialog({ data }: DialogProps<"resume.sections.lang
 	);
 }
 
-export function UpdateLanguageDialog({ data }: DialogProps<"resume.sections.languages.update">) {
+export function UpdateCoverLetterDialog({ data }: DialogProps<"resume.sections.cover-letter.update">) {
 	const closeDialog = useDialogStore((state) => state.closeDialog);
 	const updateResumeData = useResumeStore((state) => state.updateResumeData);
 
@@ -87,9 +82,8 @@ export function UpdateLanguageDialog({ data }: DialogProps<"resume.sections.lang
 		defaultValues: {
 			id: data.item.id,
 			hidden: data.item.hidden,
-			language: data.item.language,
-			fluency: data.item.fluency,
-			level: data.item.level,
+			recipient: data.item.recipient,
+			content: data.item.content,
 		},
 	});
 
@@ -100,9 +94,6 @@ export function UpdateLanguageDialog({ data }: DialogProps<"resume.sections.lang
 				if (!section) return;
 				const index = section.items.findIndex((item) => item.id === formData.id);
 				if (index !== -1) section.items[index] = formData;
-			} else {
-				const index = draft.sections.languages.items.findIndex((item) => item.id === formData.id);
-				if (index !== -1) draft.sections.languages.items[index] = formData;
 			}
 		});
 		closeDialog();
@@ -115,16 +106,16 @@ export function UpdateLanguageDialog({ data }: DialogProps<"resume.sections.lang
 			<DialogHeader>
 				<DialogTitle className="flex items-center gap-x-2">
 					<PencilSimpleLineIcon />
-					<Trans>Update an existing language</Trans>
+					<Trans>Update an existing cover letter</Trans>
 				</DialogTitle>
 				<DialogDescription />
 			</DialogHeader>
 
 			<Form {...form}>
-				<form className="grid gap-4 sm:grid-cols-2" onSubmit={form.handleSubmit(onSubmit)}>
-					<LanguageForm />
+				<form className="grid gap-4" onSubmit={form.handleSubmit(onSubmit)}>
+					<CoverLetterForm />
 
-					<DialogFooter className="sm:col-span-full">
+					<DialogFooter>
 						<Button variant="ghost" onClick={requestClose}>
 							<Trans>Cancel</Trans>
 						</Button>
@@ -139,21 +130,21 @@ export function UpdateLanguageDialog({ data }: DialogProps<"resume.sections.lang
 	);
 }
 
-function LanguageForm() {
+function CoverLetterForm() {
 	const form = useFormContext<FormValues>();
 
 	return (
 		<>
 			<FormField
 				control={form.control}
-				name="language"
+				name="recipient"
 				render={({ field }) => (
 					<FormItem>
 						<FormLabel>
-							<Trans>Language</Trans>
+							<Trans>Recipient</Trans>
 						</FormLabel>
 						<FormControl>
-							<Input {...field} />
+							<RichInput {...field} value={field.value} onChange={field.onChange} />
 						</FormControl>
 						<FormMessage />
 					</FormItem>
@@ -162,39 +153,16 @@ function LanguageForm() {
 
 			<FormField
 				control={form.control}
-				name="fluency"
+				name="content"
 				render={({ field }) => (
 					<FormItem>
 						<FormLabel>
-							<Trans>Fluency</Trans>
+							<Trans>Content</Trans>
 						</FormLabel>
 						<FormControl>
-							<Input {...field} />
+							<RichInput {...field} value={field.value} onChange={field.onChange} />
 						</FormControl>
 						<FormMessage />
-					</FormItem>
-				)}
-			/>
-
-			<FormField
-				control={form.control}
-				name="level"
-				render={({ field }) => (
-					<FormItem className="gap-4 sm:col-span-full">
-						<FormLabel>
-							<Trans>Level</Trans>
-						</FormLabel>
-						<FormControl>
-							<Slider
-								min={0}
-								max={5}
-								step={1}
-								value={[field.value]}
-								onValueChange={(value) => field.onChange(value[0])}
-							/>
-						</FormControl>
-						<FormMessage />
-						<FormDescription>{Number(field.value) === 0 ? t`Hidden` : `${field.value} / 5`}</FormDescription>
 					</FormItem>
 				)}
 			/>
