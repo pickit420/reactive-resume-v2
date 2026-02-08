@@ -68,8 +68,10 @@ export function InformationSectionBuilder() {
 
 			<p>
 				<Trans>
-					<strong>Note:</strong> Reactive Resume was originally created and maintained by Amruth Pillai. If you would
-					like to support the original maintainer, please consider donating using the links below.
+					<strong>
+						Note: Reactive Resume was originally created and maintained by Amruth Pillai. If you would like to support
+						the original maintainer, please consider donating using the links below.
+					</strong>
 				</Trans>
 			</p>
 

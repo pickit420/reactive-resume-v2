@@ -8,7 +8,7 @@ msgstr ""
 "Language: ar\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-01-31 12:13\n"
+"PO-Revision-Date: 2026-01-29 13:12\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
@@ -56,8 +56,12 @@ msgctxt "Every word needs to be wrapped in a tag"
 msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>أسئلة</0><1>يتم</1><2>طرحها كثيرًا</2>"
 
+#: src/routes/_home/-sections/faq.tsx
+msgid "<0>I'm someone who apparently thought maintaining an open source project would be easier than it looks. Spoiler: I was wrong.</0> <1> By day, I'm a normal person with a full-time job, and by night (and weekends), I'm a GitHub newbie trying to fix things in Reactive Resume without breaking them further.</1> <2>After noticing the original repo had gone quiet for about a year while people were still actively reporting issues, I decided to fork it and create a Community Self-Hosted Version. Because nothing says \"fun weekend project\" like inheriting someone else's codebase when you're not even a proper developer. Little did I know, the original author, Amruth Pillai, was just on a long coffee break and is back into developing again! So please be sure to check out his version and use it instead of this fork if you want.</2> <3> When I'm not accidentally creating new bugs while fixing old ones, you can find me playing PC games - specifically racing, city builders, and factory sims. Because if I can't organize my code properly, at least I can organize a virtual city or an overly complex factory line.</3> <4> My other hobby? Tinkering with random open source projects for my home lab. Because clearly maintaining one project isn't enough chaos in my life. But hey, someone's got to keep the lights on for Reactive Resume's community, even if that someone is learning as they go.</4> <5><6>Professional disclaimer: No resumes were harmed in the making of this fork. Probably.</6></5>"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Note:</0> Reactive Resume was originally created and maintained by Amruth Pillai. If you would like to support the original maintainer, please consider donating using the links below."
+msgid "<0>Note: Reactive Resume was originally created and maintained by Amruth Pillai. If you would like to support the original maintainer, please consider donating using the links below.</0>"
 msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
@@ -110,7 +114,7 @@ msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "مشروع شغوف من تنفيذ <0>أمروث بيلاي</0>."
 
 #: src/components/ui/copyright.tsx
-msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
+msgid "A project graciously forked by <0><1>Lazy Media</1></0><2><3>(only as a backup though...)</3></2>"
 msgstr ""
 
 #: src/dialogs/resume/index.tsx
@@ -305,10 +309,6 @@ msgstr "إحصاءات التطبيق"
 msgid "Arabic"
 msgstr "العربية"
 
-#: src/hooks/use-form-blocker.tsx
-msgid "Are you sure you want to close this dialog?"
-msgstr ""
-
 #: src/routes/dashboard/settings/api-keys.tsx
 msgid "Are you sure you want to delete this API key?"
 msgstr "هل أنت متأكد من أنك تريد حذف مفتاح واجهة برمجة التطبيقات هذا؟"
@@ -452,8 +452,6 @@ msgstr "هل يمكنني تصدير سيرتي الذاتية إلى PDF؟"
 #: src/dialogs/resume/sections/award.tsx
 #: src/dialogs/resume/sections/certification.tsx
 #: src/dialogs/resume/sections/certification.tsx
-#: src/dialogs/resume/sections/cover-letter.tsx
-#: src/dialogs/resume/sections/cover-letter.tsx
 #: src/dialogs/resume/sections/custom.tsx
 #: src/dialogs/resume/sections/custom.tsx
 #: src/dialogs/resume/sections/education.tsx
@@ -474,8 +472,6 @@ msgstr "هل يمكنني تصدير سيرتي الذاتية إلى PDF؟"
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
 #: src/dialogs/resume/sections/skill.tsx
-#: src/dialogs/resume/sections/summary-item.tsx
-#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/hooks/use-prompt.tsx
@@ -582,11 +578,6 @@ msgstr "تأكيد"
 msgid "Connect"
 msgstr "اتصال"
 
-#: src/dialogs/resume/sections/cover-letter.tsx
-#: src/dialogs/resume/sections/summary-item.tsx
-msgid "Content"
-msgstr ""
-
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
 #: src/dialogs/auth/enable-two-factor.tsx
@@ -627,15 +618,10 @@ msgstr "انسخ مفتاحك السري هذا واستخدمه في تطبيق
 msgid "Copy URL"
 msgstr "نسخ عنوان URL"
 
-#: src/utils/resume/section.tsx
-msgid "Cover Letter"
-msgstr ""
-
 #: src/dialogs/api-key/create.tsx
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/sections/award.tsx
 #: src/dialogs/resume/sections/certification.tsx
-#: src/dialogs/resume/sections/cover-letter.tsx
 #: src/dialogs/resume/sections/custom.tsx
 #: src/dialogs/resume/sections/education.tsx
 #: src/dialogs/resume/sections/experience.tsx
@@ -646,7 +632,6 @@ msgstr ""
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
-#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create"
 msgstr "إنشاء"
@@ -667,10 +652,6 @@ msgstr "إنشاء جائزة جديدة"
 #: src/dialogs/resume/sections/certification.tsx
 msgid "Create a new certification"
 msgstr "إنشاء شهادة جديدة"
-
-#: src/dialogs/resume/sections/cover-letter.tsx
-msgid "Create a new cover letter"
-msgstr ""
 
 #: src/dialogs/resume/sections/custom.tsx
 msgid "Create a new custom section"
@@ -718,10 +699,6 @@ msgstr "إنشاء سيرة ذاتية جديدة"
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Create a new skill"
 msgstr "إنشاء مهارة جديدة"
-
-#: src/dialogs/resume/sections/summary-item.tsx
-msgid "Create a new summary item"
-msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Create a new volunteer experience"
@@ -879,6 +856,7 @@ msgid "Disconnect"
 msgstr "قطع الاتصال"
 
 #: src/routes/_home/-sections/footer.tsx
+#: src/routes/_home/-sections/footer.tsx
 msgid "Discord"
 msgstr "ديسكورد"
 
@@ -887,6 +865,10 @@ msgstr "ديسكورد"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Documentation"
 msgstr "إرشادات الاستخدام"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Domain Blacklist Check"
+msgstr ""
 
 #: src/routes/auth/login.tsx
 msgid "Don't have an account? <0><1>Create one now <2/></1></0>"
@@ -1042,10 +1024,6 @@ msgstr "كل ما يتم إدخاله هنا يُخزَّن محليًا في م
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
 msgstr "كل ما تحتاجه لإنشاء سير ذاتية احترافية وتخصيصها ومشاركتها. بُني مع مراعاة الخصوصية، ومدعوم بالمصدر المفتوح، ومجاني تمامًا إلى الأبد."
 
-#: src/components/input/rich-input.tsx
-msgid "Exit Fullscreen"
-msgstr ""
-
 #: src/utils/resume/section.tsx
 msgid "Experience"
 msgstr "الخبرة"
@@ -1154,10 +1132,6 @@ msgstr "الفرنسية"
 msgid "Full Width"
 msgstr "عرض كامل"
 
-#: src/components/input/rich-input.tsx
-msgid "Fullscreen"
-msgstr ""
-
 #: src/dialogs/resume/index.tsx
 msgid "Generate a random name"
 msgstr "إنشاء اسم عشوائي"
@@ -1169,6 +1143,10 @@ msgstr "الألمانية"
 #: src/routes/_home/-sections/hero.tsx
 msgid "Get Started"
 msgstr "ابدأ الآن"
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "GitHub Sponsors"
+msgstr ""
 
 #: src/components/layout/not-found-screen.tsx
 #: src/routes/auth/verify-2fa-backup.tsx
@@ -1281,6 +1259,10 @@ msgstr "الهندية"
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
+#: src/components/ui/copyright.tsx
+msgid "Hosted on and powered by <0><1>Oracle Cloud Free Tier</1></0><2>since 2025</2>"
+msgstr ""
+
 #: src/routes/_home/-sections/faq.tsx
 msgid "How do I share my resume?"
 msgstr "كيف أشارك سيرتي الذاتية؟"
@@ -1301,6 +1283,10 @@ msgstr "الهنغارية"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
 msgid "Icon"
 msgstr "الأيقونة"
+
+#: src/routes/_home/-sections/donate.tsx
+msgid "If you would like to contribute directly to the original maintainer, Amruth Pillai, please consider donating via:"
+msgstr ""
 
 #: src/dialogs/resume/import.tsx
 msgid "Import"
@@ -1436,10 +1422,6 @@ msgstr "اعرف المزيد"
 msgid "Learn more about how to fit content on a page"
 msgstr "تعرّف أكثر على كيفية ضبط المحتوى ليتناسب مع الصفحة"
 
-#: src/hooks/use-form-blocker.tsx
-msgid "Leave"
-msgstr ""
-
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
 msgid "Leave empty to reset the title to the original."
 msgstr "اتركه فارغًا لإعادة تعيين العنوان إلى الأصل."
@@ -1553,6 +1535,10 @@ msgstr "الهامش (أفقي)"
 msgid "Margin (Vertical)"
 msgstr "الهامش (عمودي)"
 
+#: src/routes/_home/-sections/footer.tsx
+msgid "Mastodon"
+msgstr ""
+
 #: src/routes/dashboard/settings/ai.tsx
 msgid "Model"
 msgstr "النموذج"
@@ -1648,6 +1634,8 @@ msgstr "فتح عميل البريد الإلكتروني"
 msgid "Open Source"
 msgstr "مفتوح المصدر"
 
+#: src/routes/_home/-sections/donate.tsx
+#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/donate.tsx
@@ -1871,10 +1859,6 @@ msgstr "يتم إطلاق Reactive Resume على Product Hunt اليوم، ان�
 msgid "Reactive Resume is open-source, privacy-focused, and completely free. Unlike other resume builders, it doesn't show ads, track your data, or limit your features behind a paywall."
 msgstr "Reactive Resume مفتوح المصدر ويركز على الخصوصية ومجاني تمامًا. وعلى عكس أدوات إنشاء السير الذاتية الأخرى، لا يعرض إعلانات، ولا يتتبع بياناتك، ولا يقيّد ميزاتك خلف جدار دفع."
 
-#: src/dialogs/resume/sections/cover-letter.tsx
-msgid "Recipient"
-msgstr ""
-
 #: src/components/level/combobox.tsx
 msgid "Rectangle"
 msgstr "مستطيل"
@@ -1983,7 +1967,6 @@ msgstr "الروسية"
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/sections/award.tsx
 #: src/dialogs/resume/sections/certification.tsx
-#: src/dialogs/resume/sections/cover-letter.tsx
 #: src/dialogs/resume/sections/custom.tsx
 #: src/dialogs/resume/sections/education.tsx
 #: src/dialogs/resume/sections/experience.tsx
@@ -1994,7 +1977,6 @@ msgstr "الروسية"
 #: src/dialogs/resume/sections/publication.tsx
 #: src/dialogs/resume/sections/reference.tsx
 #: src/dialogs/resume/sections/skill.tsx
-#: src/dialogs/resume/sections/summary-item.tsx
 #: src/dialogs/resume/sections/volunteer.tsx
 #: src/routes/dashboard/settings/profile.tsx
 msgid "Save Changes"
@@ -2094,21 +2076,9 @@ msgstr "المشاركة"
 msgid "Show"
 msgstr "إظهار"
 
-#: src/dialogs/resume/sections/award.tsx
-#: src/dialogs/resume/sections/certification.tsx
-#: src/dialogs/resume/sections/education.tsx
-#: src/dialogs/resume/sections/experience.tsx
-#: src/dialogs/resume/sections/profile.tsx
-#: src/dialogs/resume/sections/project.tsx
-#: src/dialogs/resume/sections/publication.tsx
-#: src/dialogs/resume/sections/reference.tsx
-#: src/dialogs/resume/sections/volunteer.tsx
-msgid "Show link in title"
-msgstr ""
-
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Sidebar"
-msgstr "الشريط الجانبي"
+msgstr "الشريط الجانبي<<<<<<< HEAD"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/index.tsx
 msgid "Sidebar Width"
@@ -2245,8 +2215,12 @@ msgstr "ابدأ في إنشاء سيرتك الذاتية من الصفر"
 msgid "Statistics"
 msgstr "الإحصاءات"
 
-#: src/hooks/use-form-blocker.tsx
-msgid "Stay"
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Page"
+msgstr ""
+
+#: src/routes/_home/-sections/footer.tsx
+msgid "Status Pages"
 msgstr ""
 
 #: src/components/input/rich-input.tsx
@@ -2571,10 +2545,6 @@ msgstr "تحديث جائزة موجودة"
 msgid "Update an existing certification"
 msgstr "تحديث شهادة موجودة"
 
-#: src/dialogs/resume/sections/cover-letter.tsx
-msgid "Update an existing cover letter"
-msgstr ""
-
 #: src/dialogs/resume/sections/custom.tsx
 msgid "Update an existing custom section"
 msgstr "تحديث قسم مخصص موجود"
@@ -2614,10 +2584,6 @@ msgstr "تحديث مرجع موجود"
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Update an existing skill"
 msgstr "تحديث مهارة موجودة"
-
-#: src/dialogs/resume/sections/summary-item.tsx
-msgid "Update an existing summary item"
-msgstr ""
 
 #: src/dialogs/resume/sections/volunteer.tsx
 msgid "Update an existing volunteer experience"
@@ -2747,6 +2713,10 @@ msgstr "ما الجديد في الإصدار الأخير؟"
 msgid "When locked, the resume cannot be updated or deleted."
 msgstr "عند القفل، لا يمكن تحديث السيرة الذاتية أو حذفها."
 
+#: src/routes/_home/-sections/faq.tsx
+msgid "Who is Lazy Media & what's your deal with Reactive Resume?"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Write your own CSS (or use an AI to generate it for you) to customize your resume to the fullest."
 msgstr "اكتب CSS خاصًا بك (أو استخدم الذكاء الاصطناعي لتوليده) لتخصيص سيرتك الذاتية إلى أقصى حد."
@@ -2779,10 +2749,6 @@ msgstr "يمكنك مشاركة سيرتك الذاتية عبر عنوان URL 
 #: src/routes/dashboard/settings/authentication/-components/passkeys.tsx
 msgid "You cannot use the passkey \"{0}\" anymore to sign in after deletion. This action cannot be undone."
 msgstr "لن تتمكن من استخدام مفتاح المرور \"{0}\" لتسجيل الدخول بعد حذفه. لا يمكن التراجع عن هذا الإجراء."
-
-#: src/hooks/use-form-blocker.tsx
-msgid "You have unsaved changes that will be lost."
-msgstr ""
 
 #: src/routes/auth/forgot-password.tsx
 #: src/routes/auth/register.tsx

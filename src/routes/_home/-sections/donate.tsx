@@ -122,7 +122,7 @@ const FeatureCard = ({ icon: Icon, title, description, delay }: FeatureCardProps
 );
 
 export const DonationBanner = () => (
-	<section className="relative overflow-hidden bg-linear-to-b from-background via-primary/2 to-background py-24">
+	<section className="relative overflow-hidden bg-gradient-to-b from-background via-primary/2 to-background py-24">
 		{/* Background decorative elements */}
 		<div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden">
 			<FloatingIcon icon={HeartIcon} className="top-[20%] left-[10%]" delay={0} />
@@ -206,45 +206,86 @@ export const DonationBanner = () => (
 				viewport={{ once: true }}
 				transition={{ duration: 0.6, delay: 0.6 }}
 			>
-				<Button asChild size="lg" className="h-11 gap-2 px-6">
-					<a href="https://github.com/sponsors/lazy-media" target="_blank" rel="noopener">
-						<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
-						GitHub Sponsors
-						<span className="sr-only"> ({t`opens in new tab`})</span>
-					</a>
-				</Button>
+				<div>
+					<Button asChild size="lg" className="h-11 gap-2 px-6">
+						<a href="https://github.com/sponsors/lazy-media" target="_blank" rel="noreferrer noopener">
+							<GithubLogoIcon aria-hidden="true" weight="fill" className="text-zinc-400 dark:text-zinc-600" />
+							GitHub Sponsors
+							<span className="sr-only"> ({t`opens in new tab`})</span>
+						</a>
+					</Button>
 
-				<Button asChild size="lg" className="h-11 gap-2 px-6">
-					<a href="https://coff.ee/lazymedia" target="_blank" rel="noopener">
-						<GithubLogoIcon aria-hidden="true" weight="fill" className="text-zinc-400 dark:text-zinc-600" />
-						Buy Me a Coffee
-						<span className="sr-only"> ({t`opens in new tab`})</span>
-					</a>
-				</Button>
+					<Button asChild size="lg" className="h-11 gap-2 px-6">
+						<a href="https://coff.ee/lazymedia" target="_blank" rel="noreferrer noopener">
+							<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
+							Buy Me a Coffee
+							<span className="sr-only"> ({t`opens in new tab`})</span>
+						</a>
+					</Button>
 
-				<Button asChild size="lg" className="h-11 gap-2 px-6">
-					<a href="https://paypal.me/lazymediawa" target="_blank" rel="noopener">
-						<PaypalLogo aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
-						PayPal
-						<span className="sr-only"> ({t`opens in new tab`})</span>
-					</a>
-				</Button>
+					<Button asChild size="lg" className="h-11 gap-2 px-6">
+						<a href="https://paypal.me/lazymediawa" target="_blank" rel="noreferrer noopener">
+							<PaypalLogo aria-hidden="true" weight="fill" className="text-blue-400 dark:text-blue-600" />
+							PayPal
+							<span className="sr-only"> ({t`opens in new tab`})</span>
+						</a>
+					</Button>
 
-				<Button asChild size="lg" className="h-11 gap-2 px-6">
-					<a href="https://www.patreon.com/lazymedia" target="_blank" rel="noopener">
-						<PatreonLogo aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
-						Patreon
-						<span className="sr-only"> ({t`opens in new tab`})</span>
-					</a>
-				</Button>
+					<Button asChild size="lg" className="h-11 gap-2 px-6">
+						<a href="https://www.patreon.com/lazymedia" target="_blank" rel="noreferrer noopener">
+							<PatreonLogo aria-hidden="true" weight="fill" className="text-green-400 dark:text-green-600" />
+							Patreon
+							<span className="sr-only"> ({t`opens in new tab`})</span>
+						</a>
+					</Button>
 
-				<Button asChild size="lg" className="h-11 gap-2 px-6">
-					<a href="https://venmo.com/lazymedia/" target="_blank" rel="noopener">
-						<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
-						Venmo
-						<span className="sr-only"> ({t`opens in new tab`})</span>
-					</a>
-				</Button>
+					<Button asChild size="lg" className="h-11 gap-2 px-6">
+						<a href="https://venmo.com/lazymedia/" target="_blank" rel="noreferrer noopener">
+							<HeartIcon aria-hidden="true" weight="fill" className="text-blue-400 dark:text-blue-600" />
+							Venmo
+							<span className="sr-only"> ({t`opens in new tab`})</span>
+						</a>
+					</Button>
+				</div>
+			</motion.div>
+
+			<motion.p
+				className="mt-8 text-center text-muted-foreground leading-relaxed"
+				initial={{ opacity: 0, y: 20 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				viewport={{ once: true }}
+				transition={{ duration: 0.6, delay: 0.2 }}
+			>
+				<Trans>
+					If you would like to contribute directly to the original maintainer, Amruth Pillai, please consider donating
+					via:
+				</Trans>
+			</motion.p>
+
+			<motion.div
+				className="flex flex-col items-center justify-center gap-4 sm:flex-row"
+				initial={{ opacity: 0, y: 20 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				viewport={{ once: true }}
+				transition={{ duration: 0.6, delay: 0.6 }}
+			>
+				<p>
+					<Button asChild size="lg" className="h-11 gap-2 px-6">
+						<a href="https://opencollective.com/reactive-resume" target="_blank" rel="noreferrer noopener">
+							<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
+							Open Collective
+							<span className="sr-only"> ({t`opens in new tab`})</span>
+						</a>
+					</Button>
+
+					<Button asChild size="lg" className="h-11 gap-2 px-6">
+						<a href="https://github.com/sponsors/AmruthPillai" target="_blank" rel="noreferrer noopener">
+							<GithubLogoIcon aria-hidden="true" weight="fill" className="text-zinc-400 dark:text-zinc-600" />
+							GitHub Sponsors
+							<span className="sr-only"> ({t`opens in new tab`})</span>
+						</a>
+					</Button>
+				</p>
 			</motion.div>
 
 			{/* Footer note */}

@@ -25,7 +25,7 @@ export function Copyright({ className, ...props }: Props) {
 					A passion project by{" "}
 					<a
 						target="_blank"
-						rel="noopener"
+						rel="noopener noreferrer nofollow"
 						href="https://amruthpillai.com"
 						className="font-medium underline underline-offset-2"
 					>
@@ -34,17 +34,44 @@ export function Copyright({ className, ...props }: Props) {
 					.
 				</Trans>
 			</p>
+
 			<p>
 				<Trans>
-					A project graciously adopted by{" "}
-					<a href="https://github.com/sponsors/lazy-media" target="_blank" rel="noopener noreferrer nofollow">
-						Lazy Media
-					</a>{" "}
-					<i>(because someone had to... barely)</i>.
+					A project graciously forked by{" "}
+					<span>
+						<a
+							href="https://github.com/sponsors/lazy-media"
+							target="_blank"
+							rel="noopener noreferrer nofollow"
+							className="font-medium underline underline-offset-2"
+						>
+							Lazy Media
+						</a>
+					</span>
+					<div>
+						<i>(only as a backup though...)</i>
+					</div>
 				</Trans>
 			</p>
 
 			<p className="mt-4">Reactive Resume v{__APP_VERSION__}</p>
+
+			<p>
+				<Trans>
+					Hosted on and powered by{" "}
+					<div>
+						<a
+							href="https://www.oracle.com/cloud/free/"
+							target="_blank"
+							rel="noopener noreferrer nofollow"
+							className="font-medium underline underline-offset-2"
+						>
+							Oracle Cloud Free Tier
+						</a>
+					</div>
+					<span>since 2025</span>
+				</Trans>
+			</p>
 		</div>
 	);
 }

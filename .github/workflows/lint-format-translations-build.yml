@@ -1,0 +1,42 @@
+name: Lint, Format, Translations, Build
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Install PNPM
+        run: npm install -g pnpm
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Format
+        run: pnpm run lint
+
+      - name: TypeCheck
+        run: pnpm run typecheck
+
+      - name: Translation Extraction
+        run: pnpm run lingui:extract
+
+      - name: Vite Build
+        run: pnpm run build
